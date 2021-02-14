@@ -25,4 +25,4 @@ const springColorRobe = {
   ],
 };
 
-export default springColorRobe;
+export { springColorRobe, springColorRobeBp };

@@ -25,4 +25,4 @@ const huntingBoots = {
   ],
 };
 
-export default huntingBoots;
+export { huntingBoots, huntingBootsBp };

@@ -25,4 +25,4 @@ const towerShield = {
   ],
 };
 
-export default towerShield;
+export { towerShield, towerShieldBp };

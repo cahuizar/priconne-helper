@@ -25,4 +25,4 @@ const cuteCaskets = {
   ],
 };
 
-export default cuteCaskets;
+export { cuteCaskets, cuteCasketsBp };

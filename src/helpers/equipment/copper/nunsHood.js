@@ -25,4 +25,4 @@ const nunsHood = {
   ],
 };
 
-export default nunsHood;
+export { nunsHood, nunsHoodBp };

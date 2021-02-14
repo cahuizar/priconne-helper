@@ -25,4 +25,4 @@ const nordicRobe = {
   ],
 };
 
-export default nordicRobe;
+export { nordicRobe, nordicRobeBp };

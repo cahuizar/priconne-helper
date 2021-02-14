@@ -25,4 +25,4 @@ const highMetalPlate = {
   ],
 };
 
-export default highMetalPlate;
+export { highMetalPlate, highMetalPlateBp };

@@ -25,4 +25,4 @@ const lightPlate = {
   ],
 };
 
-export default lightPlate;
+export { lightPlate, lightPlateBp };

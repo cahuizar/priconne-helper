@@ -25,4 +25,4 @@ const folkloreClothes = {
   ],
 };
 
-export default folkloreClothes;
+export { folkloreClothes, folkloreClothesBp };

@@ -25,4 +25,4 @@ const magicMonocle = {
   ],
 };
 
-export default magicMonocle;
+export { magicMonocle, magicMonocleBp };

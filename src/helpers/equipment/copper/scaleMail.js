@@ -25,4 +25,4 @@ const scaleMail = {
   ],
 };
 
-export default scaleMail;
+export { scaleMail, scaleMailBp };

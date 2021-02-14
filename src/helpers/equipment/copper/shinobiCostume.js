@@ -25,4 +25,4 @@ const shinobiCostume = {
   ],
 };
 
-export default shinobiCostume;
+export { shinobiCostume, shinobiCostumeBp };

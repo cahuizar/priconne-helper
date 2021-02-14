@@ -25,4 +25,4 @@ const patternBracelet = {
   ],
 };
 
-export default patternBracelet;
+export { patternBracelet, patternBraceletBp };

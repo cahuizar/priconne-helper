@@ -25,4 +25,4 @@ const crownBoots = {
   ],
 };
 
-export default crownBoots;
+export { crownBoots, crownBootsBp };

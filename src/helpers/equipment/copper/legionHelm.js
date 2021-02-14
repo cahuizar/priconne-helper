@@ -25,4 +25,4 @@ const legionHelm = {
   ],
 };
 
-export default legionHelm;
+export { legionHelm, legionHelmBp };
