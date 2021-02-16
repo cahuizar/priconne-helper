@@ -7,6 +7,7 @@ const lightPlateBp = {
   name: 'Light Plate Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const lightPlate = {

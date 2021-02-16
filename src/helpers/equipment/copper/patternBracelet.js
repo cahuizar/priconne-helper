@@ -7,6 +7,7 @@ const patternBraceletBp = {
   name: 'Pattern Bracelet Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const patternBracelet = {

@@ -7,6 +7,7 @@ const legionHelmBp = {
   name: 'Legion Helm Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const legionHelm = {

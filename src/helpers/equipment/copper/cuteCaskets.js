@@ -7,6 +7,7 @@ const cuteCasketsBp = {
   name: 'Cute Caskets Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const cuteCaskets = {

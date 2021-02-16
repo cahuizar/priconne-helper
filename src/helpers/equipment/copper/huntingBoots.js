@@ -7,6 +7,7 @@ const huntingBootsBp = {
   name: 'Hunting Boots Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const huntingBoots = {

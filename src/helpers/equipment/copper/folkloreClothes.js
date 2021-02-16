@@ -7,6 +7,7 @@ const folkloreClothesBp = {
   name: 'Folklore Clothes Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const folkloreClothes = {

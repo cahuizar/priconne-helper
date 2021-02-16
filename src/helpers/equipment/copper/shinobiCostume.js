@@ -7,6 +7,7 @@ const shinobiCostumeBp = {
   name: 'Shinobi Costume Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const shinobiCostume = {

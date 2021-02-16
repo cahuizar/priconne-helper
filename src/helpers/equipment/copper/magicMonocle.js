@@ -7,6 +7,7 @@ const magicMonocleBp = {
   name: 'Magic Monocle Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const magicMonocle = {

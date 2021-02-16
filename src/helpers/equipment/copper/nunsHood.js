@@ -7,6 +7,7 @@ const nunsHoodBp = {
   name: 'Nun\'s Hood Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const nunsHood = {

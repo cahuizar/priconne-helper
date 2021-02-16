@@ -7,6 +7,7 @@ const springColorRobeBp = {
   name: 'springColorRobe Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const springColorRobe = {

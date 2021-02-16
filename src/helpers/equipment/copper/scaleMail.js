@@ -7,6 +7,7 @@ const scaleMailBp = {
   name: 'Scale Mail Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const scaleMail = {

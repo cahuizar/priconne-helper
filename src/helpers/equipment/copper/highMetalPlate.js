@@ -7,6 +7,7 @@ const highMetalPlateBp = {
   name: 'High Metal Plate Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const highMetalPlate = {

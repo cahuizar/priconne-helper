@@ -7,6 +7,7 @@ const towerShieldBp = {
   name: 'Tower Shield Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const towerShield = {

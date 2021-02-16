@@ -7,6 +7,7 @@ const crownBootsBp = {
   name: 'Crown Boots Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const crownBoots = {

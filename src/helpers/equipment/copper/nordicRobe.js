@@ -7,6 +7,7 @@ const nordicRobeBp = {
   name: 'Nordic Robe Blueprint',
   imgPath: imgBp,
   rarity: 'copper',
+  formula: [],
 };
 
 const nordicRobe = {
