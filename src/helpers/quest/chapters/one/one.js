@@ -18,8 +18,8 @@ const one = {
       img: '',
       name: 'Iron Blade',
       value: 20,
-    }
-    ]
-}
+    },
+  ],
+};
 
 export default one;
