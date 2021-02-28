@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/angelBoots.webp';
-import imgBp from '@/assets/equipment/gold/angelBootsBp.webp';
+import img from '@/assets/equipments/gold/angelBoots.webp';
+import imgBp from '@/assets/equipments/gold/angelBootsBp.webp';
 import { octogramPendant } from '@/helpers/equipment/silver/octogramPendant';
 import { featherBlade } from '@/helpers/equipment/silver/featherBlade';
 

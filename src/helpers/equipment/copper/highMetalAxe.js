@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/highMetalAxe.webp';
+import img from '@/assets/equipments/copper/highMetalAxe.webp';
 
 const highMetalAxe = {
   id: 'eq-highMetalAxe',

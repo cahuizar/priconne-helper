@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/huntersBow.webp';
+import img from '@/assets/equipments/common/huntersBow.webp';
 
 const ironBlade = {
   id: 'eq-ironBlade',

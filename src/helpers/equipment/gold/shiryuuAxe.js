@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/shiryuuAxe.webp';
-import imgBp from '@/assets/equipment/gold/shiryuuAxeFrag.webp';
+import img from '@/assets/equipments/gold/shiryuuAxe.webp';
+import imgBp from '@/assets/equipments/gold/shiryuuAxeFrag.webp';
 
 const shiryuuAxeFrag = {
   id: 'eq-frag-shiryuuAxe',

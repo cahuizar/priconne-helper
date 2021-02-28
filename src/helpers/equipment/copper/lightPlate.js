@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/lightPlate.webp';
-import imgBp from '@/assets/equipment/copper/lightPlateBp.webp';
+import img from '@/assets/equipments/copper/lightPlate.webp';
+import imgBp from '@/assets/equipments/copper/lightPlateBp.webp';
 import clothesOfWisdom from '@/helpers/equipment/copper/clothesOfWisdom';
 
 const lightPlateBp = {

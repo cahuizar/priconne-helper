@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/jewelOfCourage.webp';
+import img from '@/assets/equipments/copper/jewelOfCourage.webp';
 
 const jewelOfCourage = {
   id: 'eq-jewelOfCourage',

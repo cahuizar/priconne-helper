@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/elementalHeart.webp';
-import imgBp from '@/assets/equipment/gold/elementalHeartFrag.webp';
+import img from '@/assets/equipments/gold/elementalHeart.webp';
+import imgBp from '@/assets/equipments/gold/elementalHeartFrag.webp';
 
 const elementalHeartFrag = {
   id: 'eq-frag-elementalHeart',

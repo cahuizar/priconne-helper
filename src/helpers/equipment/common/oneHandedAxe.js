@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/oneHandedAxe.webp';
+import img from '@/assets/equipments/common/oneHandedAxe.webp';
 
 const oneHandedAxe = {
   id: 'eq-oneHandedAxe',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/heavenlyRobe.webp';
-import imgBp from '@/assets/equipment/gold/heavenlyRobeBp.webp';
+import img from '@/assets/equipments/gold/heavenlyRobe.webp';
+import imgBp from '@/assets/equipments/gold/heavenlyRobeBp.webp';
 import { moonlightGarment } from '@/helpers/equipment/gold/moonlightGarment';
 
 const heavenlyRobeBp = {

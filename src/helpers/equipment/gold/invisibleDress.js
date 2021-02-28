@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/invisibleDress.webp';
-import imgBp from '@/assets/equipment/gold/invisibleDressFrag.webp';
+import img from '@/assets/equipments/gold/invisibleDress.webp';
+import imgBp from '@/assets/equipments/gold/invisibleDressFrag.webp';
 
 const invisibleDressFrag = {
   id: 'eq-frag-invisibleDress',

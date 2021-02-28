@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/blazingGauntlet.webp';
-import imgBp from '@/assets/equipment/gold/blazingGauntletBp.webp';
+import img from '@/assets/equipments/gold/blazingGauntlet.webp';
+import imgBp from '@/assets/equipments/gold/blazingGauntletBp.webp';
 import { dragonsClaw } from '@/helpers/equipment/silver/dragonsClaw';
 import { lionEaglesFeather } from '@/helpers/equipment/silver/lionEaglesFeather';
 

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/featherWaltz.webp';
-import imgBp from '@/assets/equipment/gold/featherWaltzBp.webp';
+import img from '@/assets/equipments/gold/featherWaltz.webp';
+import imgBp from '@/assets/equipments/gold/featherWaltzBp.webp';
 import { lionKingsProtectiveCharm } from '@/helpers/equipment/silver/lionKingsProtectiveCharm';
 import { legionHelm } from '@/helpers/equipment/copper/legionHelm';
 

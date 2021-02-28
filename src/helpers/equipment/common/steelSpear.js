@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/steelSpear.webp';
+import img from '@/assets/equipments/common/steelSpear.webp';
 
 const steelSpear = {
   id: 'eq-steelSpear',

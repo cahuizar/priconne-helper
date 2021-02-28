@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/platinumKnife.webp';
-import imgBp from '@/assets/equipment/silver/platinumKnifeFrag.webp';
+import img from '@/assets/equipments/silver/platinumKnife.webp';
+import imgBp from '@/assets/equipments/silver/platinumKnifeFrag.webp';
 
 const platinumKnifeFrag = {
   id: 'eq-frag-platinumKnife',

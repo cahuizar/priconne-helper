@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/vermilionPlate.webp';
-import imgBp from '@/assets/equipment/gold/vermilionPlateBp.webp';
+import img from '@/assets/equipments/gold/vermilionPlate.webp';
+import imgBp from '@/assets/equipments/gold/vermilionPlateBp.webp';
 import { heavyMetalArmor } from '@/helpers/equipment/silver/heavyMetalArmor';
 import { absoluteSpear } from '@/helpers/equipment/silver/absoluteSpear';
 

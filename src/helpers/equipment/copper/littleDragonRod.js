@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/littleDragonRod.webp';
+import img from '@/assets/equipments/copper/littleDragonRod.webp';
 
 const littleDragonRod = {
   id: 'eq-littleDragonRod',

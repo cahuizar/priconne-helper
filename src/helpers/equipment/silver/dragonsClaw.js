@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/dragonsClaw.webp';
-import imgBp from '@/assets/equipment/silver/dragonsClawFrag.webp';
+import img from '@/assets/equipments/silver/dragonsClaw.webp';
+import imgBp from '@/assets/equipments/silver/dragonsClawFrag.webp';
 
 const dragonsClawFrag = {
   id: 'eq-frag-dragonsClaw',

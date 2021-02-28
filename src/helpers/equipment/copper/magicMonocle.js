@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/magicMonocle.webp';
-import imgBp from '@/assets/equipment/copper/magicMonocleBp.webp';
+import img from '@/assets/equipments/copper/magicMonocle.webp';
+import imgBp from '@/assets/equipments/copper/magicMonocleBp.webp';
 import fightingBracelet from '@/helpers/equipment/common/fightingBracelet';
 
 const magicMonocleBp = {

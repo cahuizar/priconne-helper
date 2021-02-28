@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/cupidsBow.webp';
-import imgBp from '@/assets/equipment/silver/cupidsBowFrag.webp';
+import img from '@/assets/equipments/silver/cupidsBow.webp';
+import imgBp from '@/assets/equipments/silver/cupidsBowFrag.webp';
 
 const cupidsBowFrag = {
   id: 'eq-frag-cupidsBow',

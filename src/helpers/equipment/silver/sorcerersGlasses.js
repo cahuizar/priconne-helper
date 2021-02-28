@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/silver/sorcerersGlasses.webp';
+import img from '@/assets/equipments/silver/sorcerersGlasses.webp';
 import { turquoiseEarrings } from '@/helpers/equipment/silver/turquoiseEarrings';
 import { patternBracelet } from '@/helpers/equipment/copper/patternBracelet';
 

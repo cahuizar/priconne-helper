@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/thornBloodRod.webp';
-import imgBp from '@/assets/equipment/silver/thornBloodRodFrag.webp';
+import img from '@/assets/equipments/silver/thornBloodRod.webp';
+import imgBp from '@/assets/equipments/silver/thornBloodRodFrag.webp';
 
 const thornBloodRodFrag = {
   id: 'eq-frag-thornBloodRod',

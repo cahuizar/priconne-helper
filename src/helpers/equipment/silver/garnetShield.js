@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/garnetShield.webp';
-import imgBp from '@/assets/equipment/silver/garnetShieldFrag.webp';
+import img from '@/assets/equipments/silver/garnetShield.webp';
+import imgBp from '@/assets/equipments/silver/garnetShieldFrag.webp';
 
 const garnetShieldFrag = {
   id: 'eq-frag-garnetShield',

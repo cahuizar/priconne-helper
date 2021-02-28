@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/gaiaBardiche.webp';
-import imgBp from '@/assets/equipment/gold/gaiaBardicheFrag.webp';
+import img from '@/assets/equipments/gold/gaiaBardiche.webp';
+import imgBp from '@/assets/equipments/gold/gaiaBardicheFrag.webp';
 
 const gaiaBardicheFrag = {
   id: 'eq-frag-gaiaBardiche',

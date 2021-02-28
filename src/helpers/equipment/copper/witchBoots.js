@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/witchBoots.webp';
+import img from '@/assets/equipments/copper/witchBoots.webp';
 
 const witchBoots = {
   id: 'eq-witchBoots',

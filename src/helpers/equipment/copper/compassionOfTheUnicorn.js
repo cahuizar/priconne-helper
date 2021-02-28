@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/compassionOfTheUnicorn.webp';
+import img from '@/assets/equipments/copper/compassionOfTheUnicorn.webp';
 
 const compassionOfTheUnicorn = {
   id: 'eq-compassionOfTheUnicorn',

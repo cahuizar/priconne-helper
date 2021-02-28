@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/justiceGodsStaff.webp';
-import imgBp from '@/assets/equipment/gold/justiceGodsStaffFrag.webp';
+import img from '@/assets/equipments/gold/justiceGodsStaff.webp';
+import imgBp from '@/assets/equipments/gold/justiceGodsStaffFrag.webp';
 
 const justiceGodsStaffFrag = {
   id: 'eq-frag-justiceGodsStaff',

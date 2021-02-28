@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/witchPalaceBoots.webp';
-import imgBp from '@/assets/equipment/silver/witchPalaceBootsBp.webp';
+import img from '@/assets/equipments/silver/witchPalaceBoots.webp';
+import imgBp from '@/assets/equipments/silver/witchPalaceBootsBp.webp';
 import { patternBracelet } from '@/helpers/equipment/copper/patternBracelet';
 import { huntingBoots } from '@/helpers/equipment/copper/huntingBoots';
 

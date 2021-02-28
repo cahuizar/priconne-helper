@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/mourningCrescentMoon.webp';
-import imgBp from '@/assets/equipment/gold/mourningCrescentMoonFrag.webp';
+import img from '@/assets/equipments/gold/mourningCrescentMoon.webp';
+import imgBp from '@/assets/equipments/gold/mourningCrescentMoonFrag.webp';
 
 const mourningCrescentMoonFrag = {
   id: 'eq-frag-mourningCrescentMoon',

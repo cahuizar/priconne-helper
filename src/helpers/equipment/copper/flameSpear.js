@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/flameSpear.webp';
+import img from '@/assets/equipments/copper/flameSpear.webp';
 
 const flameSpear = {
   id: 'eq-flameSpear',

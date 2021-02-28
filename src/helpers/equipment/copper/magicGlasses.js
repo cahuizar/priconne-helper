@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/magicGlasses.webp';
+import img from '@/assets/equipments/copper/magicGlasses.webp';
 
 const magicGlasses = {
   id: 'eq-magicGlasses',

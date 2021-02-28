@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/featherBlade.webp';
-import imgBp from '@/assets/equipment/silver/featherBladeFrag.webp';
+import img from '@/assets/equipments/silver/featherBlade.webp';
+import imgBp from '@/assets/equipments/silver/featherBladeFrag.webp';
 
 const featherBladeFrag = {
   id: 'eq-frag-featherBlade',

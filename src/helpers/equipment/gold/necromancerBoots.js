@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/necromancerBoots.webp';
-import imgBp from '@/assets/equipment/gold/necromancerBootsBp.webp';
+import img from '@/assets/equipments/gold/necromancerBoots.webp';
+import imgBp from '@/assets/equipments/gold/necromancerBootsBp.webp';
 import { wizardBoots } from '@/helpers/equipment/gold/wizardBoots';
 import { devilsHorn } from '@/helpers/equipment/silver/devilsHorn';
 

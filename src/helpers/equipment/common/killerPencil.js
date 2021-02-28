@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/killerPencil.webp';
+import img from '@/assets/equipments/common/killerPencil.webp';
 
 const killerPencil = {
   id: 'eq-killerPencil',

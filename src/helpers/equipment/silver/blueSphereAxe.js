@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/blueSphereAxe.webp';
-import imgBp from '@/assets/equipment/silver/blueSphereAxeFrag.webp';
+import img from '@/assets/equipments/silver/blueSphereAxe.webp';
+import imgBp from '@/assets/equipments/silver/blueSphereAxeFrag.webp';
 
 const blueSphereAxeFrag = {
   id: 'eq-frag-blueSphereAxe',

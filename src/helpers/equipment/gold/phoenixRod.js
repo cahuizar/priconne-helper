@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/phoenixRod.webp';
-import imgBp from '@/assets/equipment/gold/phoenixRodBp.webp';
+import img from '@/assets/equipments/gold/phoenixRod.webp';
+import imgBp from '@/assets/equipments/gold/phoenixRodBp.webp';
 import { moonWand } from '@/helpers/equipment/gold/moonWand';
 import { laurelsSorrow } from '@/helpers/equipment/silver/laurelsSorrow';
 import { scarletDiamond } from '@/helpers/equipment/silver/scarletDiamond';

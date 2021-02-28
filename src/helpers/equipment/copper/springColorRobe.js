@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/springColorRobe.webp';
-import imgBp from '@/assets/equipment/copper/springColorRobeBp.webp';
+import img from '@/assets/equipments/copper/springColorRobe.webp';
+import imgBp from '@/assets/equipments/copper/springColorRobeBp.webp';
 import journeyRobe from '@/helpers/equipment/common/journeyRobe';
 
 const springColorRobeBp = {

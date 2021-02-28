@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/devilsHorn.webp';
-import imgBp from '@/assets/equipment/silver/devilsHornFrag.webp';
+import img from '@/assets/equipments/silver/devilsHorn.webp';
+import imgBp from '@/assets/equipments/silver/devilsHornFrag.webp';
 
 const devilsHornFrag = {
   id: 'eq-frag-devilsHorn',

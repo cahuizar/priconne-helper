@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/solarSword.webp';
-import imgBp from '@/assets/equipment/gold/solarSwordFrag.webp';
+import img from '@/assets/equipments/gold/solarSword.webp';
+import imgBp from '@/assets/equipments/gold/solarSwordFrag.webp';
 
 const solarSwordFrag = {
   id: 'eq-frag-solarSword',

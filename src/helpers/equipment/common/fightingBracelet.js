@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/fightingBracelet.webp';
+import img from '@/assets/equipments/common/fightingBracelet.webp';
 
 const fightingBracelet = {
   id: 'eq-fightingBracelet',

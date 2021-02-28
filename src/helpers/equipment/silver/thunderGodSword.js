@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/thunderGodSword.webp';
-import imgBp from '@/assets/equipment/silver/thunderGodSwordBp.webp';
+import img from '@/assets/equipments/silver/thunderGodSword.webp';
+import imgBp from '@/assets/equipments/silver/thunderGodSwordBp.webp';
 import { ryuumonSword } from '@/helpers/equipment/silver/ryuumonSword';
 
 const thunderGodSwordBp = {

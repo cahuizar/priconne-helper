@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/popesHood.webp';
-import imgBp from '@/assets/equipment/gold/popesHoodBp.webp';
+import img from '@/assets/equipments/gold/popesHood.webp';
+import imgBp from '@/assets/equipments/gold/popesHoodBp.webp';
 import { lionKingsProtectiveCharm } from '@/helpers/equipment/silver/lionKingsProtectiveCharm';
 import { witchHat } from '@/helpers/equipment/silver/witchHat';
 import { cupidRobe } from '@/helpers/equipment/silver/cupidRobe';

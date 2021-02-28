@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/knightsPride.webp';
-import imgBp from '@/assets/equipment/silver/knightsPrideBp.webp';
+import img from '@/assets/equipments/silver/knightsPride.webp';
+import imgBp from '@/assets/equipments/silver/knightsPrideBp.webp';
 import trident from '@/helpers/equipment/copper/trident';
 
 const knightsPrideBp = {

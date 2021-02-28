@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/phoenixSword.webp';
-import imgBp from '@/assets/equipment/gold/phoenixSwordBp.webp';
+import img from '@/assets/equipments/gold/phoenixSword.webp';
+import imgBp from '@/assets/equipments/gold/phoenixSwordBp.webp';
 import { butterflyKatana } from '@/helpers/equipment/gold/butterflyKatana';
 
 const phoenixSwordBp = {

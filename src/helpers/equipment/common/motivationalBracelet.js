@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/motivationalBracelet.webp';
+import img from '@/assets/equipments/common/motivationalBracelet.webp';
 
 const motivationalBracelet = {
   id: 'eq-motivationalBracelet',

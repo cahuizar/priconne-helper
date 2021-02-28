@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/catGodPendant.webp';
-import imgBp from '@/assets/equipment/gold/catGodPendantFrag.webp';
+import img from '@/assets/equipments/gold/catGodPendant.webp';
+import imgBp from '@/assets/equipments/gold/catGodPendantFrag.webp';
 
 const catGodPendantFrag = {
   id: 'eq-frag-catGodPendant',

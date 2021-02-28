@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/battlingDress.webp';
-import imgBp from '@/assets/equipment/silver/battlingDressBp.webp';
+import img from '@/assets/equipments/silver/battlingDress.webp';
+import imgBp from '@/assets/equipments/silver/battlingDressBp.webp';
 import { lightPlate } from '@/helpers/equipment/copper/lightPlate';
 import { highMetalPlate } from '@/helpers/equipment/copper/highMetalPlate';
 

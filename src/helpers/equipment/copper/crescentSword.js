@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/crescentSword.webp';
+import img from '@/assets/equipments/copper/crescentSword.webp';
 
 const crescentSword = {
   id: 'eq-crescentSword',

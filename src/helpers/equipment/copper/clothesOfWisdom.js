@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/clothesOfWisdom.webp';
+import img from '@/assets/equipments/copper/clothesOfWisdom.webp';
 
 const clothesOfWisdom = {
   id: 'eq-clothesOfWisdom',

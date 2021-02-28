@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/dragonHead.webp';
-import imgBp from '@/assets/equipment/silver/dragonHeadBp.webp';
+import img from '@/assets/equipments/silver/dragonHead.webp';
+import imgBp from '@/assets/equipments/silver/dragonHeadBp.webp';
 import { highMetalPlate } from '@/helpers/equipment/copper/highMetalPlate';
 import { legionHelm } from '@/helpers/equipment/copper/legionHelm';
 

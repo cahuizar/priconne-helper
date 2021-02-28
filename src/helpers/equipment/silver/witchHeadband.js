@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/witchHeadband.webp';
-import imgBp from '@/assets/equipment/silver/witchHeadbandFrag.webp';
+import img from '@/assets/equipments/silver/witchHeadband.webp';
+import imgBp from '@/assets/equipments/silver/witchHeadbandFrag.webp';
 
 const witchHeadbandFrag = {
   id: 'eq-frag-witchHeadband',

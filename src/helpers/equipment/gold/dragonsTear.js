@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/dragonsTear.webp';
-import imgBp from '@/assets/equipment/gold/dragonsTearFrag.webp';
+import img from '@/assets/equipments/gold/dragonsTear.webp';
+import imgBp from '@/assets/equipments/gold/dragonsTearFrag.webp';
 
 const dragonsTearFrag = {
   id: 'eq-frag-dragonsTear',

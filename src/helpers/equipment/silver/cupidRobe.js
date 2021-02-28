@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/cupidRobe.webp';
-import imgBp from '@/assets/equipment/silver/cupidRobeBp.webp';
+import img from '@/assets/equipments/silver/cupidRobe.webp';
+import imgBp from '@/assets/equipments/silver/cupidRobeBp.webp';
 import { nordicRobe } from '@/helpers/equipment/copper/nordicRobe';
 
 const cupidRobeBp = {

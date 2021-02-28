@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/wizardBoots.webp';
-import imgBp from '@/assets/equipment/gold/wizardBootsFrag.webp';
+import img from '@/assets/equipments/gold/wizardBoots.webp';
+import imgBp from '@/assets/equipments/gold/wizardBootsFrag.webp';
 
 const wizardBootsFrag = {
   id: 'eq-frag-wizardBoots',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/lightningAxe.webp';
-import imgBp from '@/assets/equipment/silver/lightningAxeBp.webp';
+import img from '@/assets/equipments/silver/lightningAxe.webp';
+import imgBp from '@/assets/equipments/silver/lightningAxeBp.webp';
 import { lionsBattleAxe } from '@/helpers/equipment/silver/lionsBattleAxe';
 
 const lightningAxeBp = {

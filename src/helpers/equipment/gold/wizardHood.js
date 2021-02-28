@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/wizardHood.webp';
-import imgBp from '@/assets/equipment/gold/wizardHoodBp.webp';
+import img from '@/assets/equipments/gold/wizardHood.webp';
+import imgBp from '@/assets/equipments/gold/wizardHoodBp.webp';
 import { laurelsSorrow } from '@/helpers/equipment/silver/laurelsSorrow';
 
 const wizardHoodBp = {

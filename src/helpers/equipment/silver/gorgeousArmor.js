@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/gorgeousArmor.webp';
-import imgBp from '@/assets/equipment/silver/gorgeousArmorBp.webp';
+import img from '@/assets/equipments/silver/gorgeousArmor.webp';
+import imgBp from '@/assets/equipments/silver/gorgeousArmorBp.webp';
 import { highMetalPlate } from '@/helpers/equipment/copper/highMetalPlate';
 
 const gorgeousArmorBp = {

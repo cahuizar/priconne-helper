@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/paladinGreave.webp';
-import imgBp from '@/assets/equipment/gold/paladinGreaveBp.webp';
+import img from '@/assets/equipments/gold/paladinGreave.webp';
+import imgBp from '@/assets/equipments/gold/paladinGreaveBp.webp';
 import { shinobiShoes } from '@/helpers/equipment/silver/shinobiShoes';
 import { opalEarrings } from '@/helpers/equipment/silver/opalEarrings';
 import { emeraldEarrings } from '@/helpers/equipment/silver/emeraldEarrings';

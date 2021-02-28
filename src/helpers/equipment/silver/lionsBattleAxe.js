@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/lionsBattleAxe.webp';
-import imgBp from '@/assets/equipment/silver/lionsBattleAxeBp.webp';
+import img from '@/assets/equipments/silver/lionsBattleAxe.webp';
+import imgBp from '@/assets/equipments/silver/lionsBattleAxeBp.webp';
 import { blueSphereAxe } from '@/helpers/equipment/silver/blueSphereAxe';
 import blueBlood from '@/helpers/equipment/copper/blueBlood';
 

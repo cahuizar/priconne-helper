@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/spikeBangle.webp';
+import img from '@/assets/equipments/copper/spikeBangle.webp';
 
 const spikeBangle = {
   id: 'eq-spikeBangle',

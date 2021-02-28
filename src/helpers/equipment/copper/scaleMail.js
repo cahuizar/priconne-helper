@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/scaleMail.webp';
-import imgBp from '@/assets/equipment/copper/scaleMailBp.webp';
+import img from '@/assets/equipments/copper/scaleMail.webp';
+import imgBp from '@/assets/equipments/copper/scaleMailBp.webp';
 import leatherOveralls from '@/helpers/equipment/common/leatherOveralls';
 
 const scaleMailBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/firelordsRing.webp';
-import imgBp from '@/assets/equipment/gold/firelordsRingFrag.webp';
+import img from '@/assets/equipments/gold/firelordsRing.webp';
+import imgBp from '@/assets/equipments/gold/firelordsRingFrag.webp';
 
 const firelordsRingFrag = {
   id: 'eq-frag-firelordsRing',

@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/protectivePendant.webp';
+import img from '@/assets/equipments/common/protectivePendant.webp';
 
 const protectivePendant = {
   id: 'eq-motivationalBracelet',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/fencerBoots.webp';
-import imgBp from '@/assets/equipment/silver/fencerBootsBp.webp';
+import img from '@/assets/equipments/silver/fencerBoots.webp';
+import imgBp from '@/assets/equipments/silver/fencerBootsBp.webp';
 import { shinobiShoes } from '@/helpers/equipment/silver/shinobiShoes';
 
 const fencerBootsBp = {

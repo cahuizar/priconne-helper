@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/chaosBlade.webp';
-import imgBp from '@/assets/equipment/gold/chaosBladeFrag.webp';
+import img from '@/assets/equipments/gold/chaosBlade.webp';
+import imgBp from '@/assets/equipments/gold/chaosBladeFrag.webp';
 
 const chaosBladeFrag = {
   id: 'eq-frag-chaosBlade',

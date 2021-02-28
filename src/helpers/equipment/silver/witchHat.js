@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/witchHat.webp';
-import imgBp from '@/assets/equipment/silver/witchHatFrag.webp';
+import img from '@/assets/equipments/silver/witchHat.webp';
+import imgBp from '@/assets/equipments/silver/witchHatFrag.webp';
 
 const witchHatFrag = {
   id: 'eq-frag-witchHat',
