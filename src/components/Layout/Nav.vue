@@ -3,8 +3,6 @@
     <v-app-bar
       absolute
       color="white"
-      elevate-on-scroll
-      scroll-target="#scrolling-techniques-7"
       app
       >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
@@ -20,32 +18,65 @@
       </div>
       <v-toolbar-title>Priconne Helper</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-      <v-btn icon>
+      <v-btn icon class="mr-1">
         <p-avatar/>
       </v-btn>
     </v-app-bar>
-    <p-navigation-drawer :drawer='drawer' :group='group'/>
+    <v-navigation-drawer
+      v-model="drawer"
+      absolute
+      left
+      temporary
+      app
+    >
+      <v-list
+        nav
+        dense
+      >
+        <v-list-item-group
+          v-model="group"
+          active-class="deep-purple--text text--accent-4"
+        >
+          <v-list-item v-for='link in links' :key='link.text' :to="link.to">
+            <v-list-item-title>{{link.text}}</v-list-item-title>
+          </v-list-item>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
   </div>
 </template>
 
 <script>
 import Avatar from '@/components/Avatar/Avatar.vue';
-import NavigationDrawer from '@/components/Layout/NavigationDrawer.vue';
 import logo from '@/assets/logo.jpg';
 
 export default {
   name: 'Nav',
   components: {
     PAvatar: Avatar,
-    PNavigationDrawer: NavigationDrawer,
   },
   data: () => ({
     logo,
     drawer: false,
     group: null,
+    links: [
+      {
+        to: '/',
+        text: 'Home',
+      }, {
+        to: '/equipment',
+        text: 'My Equipment',
+      }, {
+        to: '/characters',
+        text: 'My Characters',
+      }, {
+        to: '/data/equipment',
+        text: 'All Equipment',
+      }, {
+        to: '/data/characters',
+        text: 'All Characters',
+      },
+    ],
   }),
   watch: {
     group() {

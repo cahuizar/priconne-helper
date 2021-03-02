@@ -101,7 +101,7 @@ const nozomi = {
       name: 'Rank 9',
       category: 'gold',
       item: [
-        chaosBlade, iceClaymore, violetArmor, mythrilPlate, moonBracelet, bangleOfSubstitution
+        chaosBlade, iceClaymore, violetArmor, mythrilPlate, moonBracelet, bangleOfSubstitution,
       ],
     },
   ],

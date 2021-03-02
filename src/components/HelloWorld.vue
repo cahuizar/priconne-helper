@@ -6,7 +6,7 @@
         cols="12"
       >
         <h2 class="headline font-weight-bold mb-3">
-          Priconne Helper
+          Home
         </h2>
       </v-col>
     </v-row>
