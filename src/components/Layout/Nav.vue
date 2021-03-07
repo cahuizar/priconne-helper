@@ -2,22 +2,26 @@
   <div>
     <v-app-bar
       absolute
-      color="white"
+      color="primary"
       app
+      dark
       >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <div class="d-flex align-center">
-        <v-img
-          alt="Priconne Helper logo"
-          class="shrink mr-2"
-          contain
-          :src="logo"
-          transition="scale-transition"
-          width="40"
-        />
+        <router-link to="/">
+          <v-img
+            alt="Priconne Helper logo"
+            class="shrink mr-2"
+            contain
+            :src="logo"
+            transition="scale-transition"
+            width="40"
+          />
+        </router-link>
       </div>
-      <v-toolbar-title>Priconne Helper</v-toolbar-title>
+      <v-toolbar-title class="d-none d-sm-block">Priconne Helper</v-toolbar-title>
       <v-spacer></v-spacer>
+      <p-nav-icons/>
       <v-btn icon class="mr-1">
         <p-avatar/>
       </v-btn>
@@ -35,7 +39,7 @@
       >
         <v-list-item-group
           v-model="group"
-          active-class="deep-purple--text text--accent-4"
+          active-class="primary--text"
         >
           <v-list-item v-for='link in links' :key='link.text' :to="link.to">
             <v-list-item-title>{{link.text}}</v-list-item-title>
@@ -49,11 +53,13 @@
 <script>
 import Avatar from '@/components/Avatar/Avatar.vue';
 import logo from '@/assets/logo.jpg';
+import NavIcons from '@/components/NavIcons/NavIcons.vue';
 
 export default {
   name: 'Nav',
   components: {
     PAvatar: Avatar,
+    PNavIcons: NavIcons,
   },
   data: () => ({
     logo,
@@ -64,17 +70,26 @@ export default {
         to: '/',
         text: 'Home',
       }, {
+        to: '/characters',
+        text: 'My Characters',
+      }, {
         to: '/equipment',
         text: 'My Equipment',
       }, {
-        to: '/characters',
-        text: 'My Characters',
+        to: '/data/characters',
+        text: 'All Characters',
       }, {
         to: '/data/equipment',
         text: 'All Equipment',
       }, {
-        to: '/data/characters',
-        text: 'All Characters',
+        to: '/clan-battle',
+        text: 'Clan Battle',
+      }, {
+        to: '/supporters',
+        text: 'Supporters',
+      }, {
+        to: '/credits',
+        text: 'Credits',
       },
     ],
   }),
@@ -87,5 +102,7 @@ export default {
 </script>
 
 <style scoped>
-
+.v-btn--active.no-active::before {
+  opacity: 0;
+}
 </style>

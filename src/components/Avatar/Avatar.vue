@@ -11,8 +11,8 @@
           x-large
           v-on="on"
         >
-          <v-avatar size="36" color="indigo">
-            <v-icon color="white">
+          <v-avatar size="36">
+            <v-icon>
               mdi-account-circle
             </v-icon>
           </v-avatar>
@@ -21,7 +21,7 @@
       <v-card>
         <v-list-item-content class="justify-center">
           <div class="mx-auto text-center">
-            <v-avatar size=28 color="indigo">
+            <v-avatar size=28 class="primary">
               <v-icon dark>
                 mdi-account-circle
               </v-icon>
@@ -35,6 +35,7 @@
               depressed
               rounded
               text
+              color="error"
             >
               Log Out
             </v-btn>
