@@ -2,7 +2,7 @@
   <v-app>
     <p-nav />
     <v-main>
-      <HelloWorld />
+      <router-view/>
     </v-main>
     <p-footer />
   </v-app>
@@ -11,13 +11,11 @@
 <script>
 import logo from '@/assets/logo.jpg';
 import Footer from '@/components/Layout/Footer.vue';
-import HelloWorld from './components/HelloWorld.vue';
 import Nav from './components/Layout/Nav.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     PNav: Nav,
     PFooter: Footer,
   },

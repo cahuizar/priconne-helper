@@ -1,6 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+import Home from '@/views/Home.vue';
+import Supporters from '@/views/Supporters.vue';
+import ClanBattle from '@/views/ClanBattle.vue';
+import Credits from '@/views/Credits.vue';
+import Characters from '@/views/Characters.vue';
+import Equipment from '@/views/Equipment.vue';
+import DataCharacters from '@/views/Data/Characters.vue';
+import DataEquipment from '@/views/Data/Equipment.vue';
 
 Vue.use(VueRouter);
 
@@ -11,12 +18,39 @@ const routes = [
     component: Home,
   },
   {
-    path: '/about',
+    path: '/credits',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: Credits,
+  },
+  {
+    path: '/clan-battle',
+    name: 'ClanBattle',
+    component: ClanBattle,
+  },
+  {
+    path: '/supporters',
+    name: 'Supporters',
+    component: Supporters,
+  },
+  {
+    path: '/characters',
+    name: 'Characters',
+    component: Characters,
+  },
+  {
+    path: '/equipment',
+    name: 'Equipment',
+    component: Equipment,
+  },
+  {
+    path: '/data/characters',
+    name: 'DataCharacters',
+    component: DataCharacters,
+  },
+  {
+    path: '/data/equipment',
+    name: 'DataEquipment',
+    component: DataEquipment,
   },
 ];
 
