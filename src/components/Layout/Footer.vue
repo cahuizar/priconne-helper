@@ -13,7 +13,7 @@
         class="primary lighten-1 py-4 text-center white--text"
         cols="12"
       >
-        Last updated: March 01, 2021
+        Last updated: March 09, 2021
       </v-col>
     </v-row>
   </v-footer>
