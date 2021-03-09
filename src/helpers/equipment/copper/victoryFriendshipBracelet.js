@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/victoryFriendshipBracelet.webp';
+import img from '@/assets/equipments/copper/victoryFriendshipBracelet.webp';
 
 const victoryFriendshipBracelet = {
   id: 'eq-victoryFriendshipBracelet',

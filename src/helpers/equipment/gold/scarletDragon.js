@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/scarletDragon.webp';
-import imgBp from '@/assets/equipment/gold/scarletDragonBp.webp';
+import img from '@/assets/equipments/gold/scarletDragon.webp';
+import imgBp from '@/assets/equipments/gold/scarletDragonBp.webp';
 import { absoluteSpear } from '@/helpers/equipment/silver/absoluteSpear';
 import { opalEarrings } from '@/helpers/equipment/silver/opalEarrings';
 

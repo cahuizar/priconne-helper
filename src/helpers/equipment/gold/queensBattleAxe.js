@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/queensBattleAxe.webp';
-import imgBp from '@/assets/equipment/gold/queensBattleAxeFrag.webp';
+import img from '@/assets/equipments/gold/queensBattleAxe.webp';
+import imgBp from '@/assets/equipments/gold/queensBattleAxeFrag.webp';
 
 const queensBattleAxeFrag = {
   id: 'eq-frag-queensBattleAxe',

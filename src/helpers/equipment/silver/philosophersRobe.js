@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/philosophersRobe.webp';
-import imgBp from '@/assets/equipment/silver/philosophersRobeFrag.webp';
+import img from '@/assets/equipments/silver/philosophersRobe.webp';
+import imgBp from '@/assets/equipments/silver/philosophersRobeFrag.webp';
 
 const philosophersRobeFrag = {
   id: 'eq-frag-philosophersRobe',

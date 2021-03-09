@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/pearlEarrings.webp';
-import imgBp from '@/assets/equipment/silver/pearlEarringsBp.webp';
+import img from '@/assets/equipments/silver/pearlEarrings.webp';
+import imgBp from '@/assets/equipments/silver/pearlEarringsBp.webp';
 import { patternBracelet } from '@/helpers/equipment/copper/patternBracelet';
 
 const pearlEarringsBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/cuteCaskets.webp';
-import imgBp from '@/assets/equipment/copper/cuteCasketsBp.webp';
+import img from '@/assets/equipments/copper/cuteCaskets.webp';
+import imgBp from '@/assets/equipments/copper/cuteCasketsBp.webp';
 import fashionableBeret from '@/helpers/equipment/common/fashionableBeret';
 
 const cuteCasketsBp = {

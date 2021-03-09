@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/fairealBoots.webp';
-import imgBp from '@/assets/equipment/gold/fairealBootsBp.webp';
+import img from '@/assets/equipments/gold/fairealBoots.webp';
+import imgBp from '@/assets/equipments/gold/fairealBootsBp.webp';
 import { angelBoots } from '@/helpers/equipment/gold/angelBoots';
 import { laurelsSorrow } from '@/helpers/equipment/silver/laurelsSorrow';
 import { lionKingsProtectiveCharm } from '@/helpers/equipment/silver/lionKingsProtectiveCharm';

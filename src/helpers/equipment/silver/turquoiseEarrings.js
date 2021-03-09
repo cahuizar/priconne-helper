@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/turquoiseEarrings.webp';
-import imgBp from '@/assets/equipment/silver/turquoiseEarringsFrag.webp';
+import img from '@/assets/equipments/silver/turquoiseEarrings.webp';
+import imgBp from '@/assets/equipments/silver/turquoiseEarringsFrag.webp';
 
 const turquoiseEarringsFrag = {
   id: 'eq-frag-turquoiseEarrings',

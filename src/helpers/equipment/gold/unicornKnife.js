@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/unicornKnife.webp';
-import imgBp from '@/assets/equipment/gold/unicornKnifeBp.webp';
+import img from '@/assets/equipments/gold/unicornKnife.webp';
+import imgBp from '@/assets/equipments/gold/unicornKnifeBp.webp';
 import { princessDagger } from '@/helpers/equipment/gold/princessDagger';
 
 const unicornKnifeBp = {

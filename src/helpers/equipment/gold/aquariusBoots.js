@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/aquariusBoots.webp';
-import imgBp from '@/assets/equipment/gold/aquariusBootsBp.webp';
+import img from '@/assets/equipments/gold/aquariusBoots.webp';
+import imgBp from '@/assets/equipments/gold/aquariusBootsBp.webp';
 import { wizardBoots } from '@/helpers/equipment/gold/wizardBoots';
 import { bangleOfSubstitution } from '@/helpers/equipment/gold/bangleOfSubstitution';
 

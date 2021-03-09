@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/shinobiShoes.webp';
-import imgBp from '@/assets/equipment/silver/shinobiShoesFrag.webp';
+import img from '@/assets/equipments/silver/shinobiShoes.webp';
+import imgBp from '@/assets/equipments/silver/shinobiShoesFrag.webp';
 
 const shinobiShoesFrag = {
   id: 'eq-frag-shinobiShoes',

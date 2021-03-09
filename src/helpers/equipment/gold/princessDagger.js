@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/princessDagger.webp';
-import imgBp from '@/assets/equipment/gold/princessDaggerFrag.webp';
+import img from '@/assets/equipments/gold/princessDagger.webp';
+import imgBp from '@/assets/equipments/gold/princessDaggerFrag.webp';
 
 const princessDaggerFrag = {
   id: 'eq-frag-princessDagger',

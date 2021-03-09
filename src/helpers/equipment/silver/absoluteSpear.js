@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/absoluteSpear.webp';
-import imgBp from '@/assets/equipment/silver/absoluteSpearFrag.webp';
+import img from '@/assets/equipments/silver/absoluteSpear.webp';
+import imgBp from '@/assets/equipments/silver/absoluteSpearFrag.webp';
 
 const absoluteSpearFrag = {
   id: 'eq-frag-absoluteSpear',

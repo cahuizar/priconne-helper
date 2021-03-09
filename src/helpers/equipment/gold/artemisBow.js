@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/artemisBow.webp';
-import imgBp from '@/assets/equipment/gold/artemisBowFrag.webp';
+import img from '@/assets/equipments/gold/artemisBow.webp';
+import imgBp from '@/assets/equipments/gold/artemisBowFrag.webp';
 
 const artemisBowFrag = {
   id: 'eq-frag-artemisBow',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/lionKingsProtectiveCharm.webp';
-import imgBp from '@/assets/equipment/silver/lionKingsProtectiveCharmBp.webp';
+import img from '@/assets/equipments/silver/lionKingsProtectiveCharm.webp';
+import imgBp from '@/assets/equipments/silver/lionKingsProtectiveCharmBp.webp';
 import { emeraldEarrings } from '@/helpers/equipment/silver/emeraldEarrings';
 
 const lionKingsProtectiveCharmBp = {

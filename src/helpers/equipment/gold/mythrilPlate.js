@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/mythrilPlate.webp';
-import imgBp from '@/assets/equipment/gold/mythrilPlateBp.webp';
+import img from '@/assets/equipments/gold/mythrilPlate.webp';
+import imgBp from '@/assets/equipments/gold/mythrilPlateBp.webp';
 import { battlingDress } from '@/helpers/equipment/silver/battlingDress';
 import { garnetShield } from '@/helpers/equipment/silver/garnetShield';
 import { lionEaglesFeather } from '@/helpers/equipment/silver/lionEaglesFeather';

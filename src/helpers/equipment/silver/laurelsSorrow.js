@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/laurelsSorrow.webp';
-import imgBp from '@/assets/equipment/silver/laurelsSorrowFrag.webp';
+import img from '@/assets/equipments/silver/laurelsSorrow.webp';
+import imgBp from '@/assets/equipments/silver/laurelsSorrowFrag.webp';
 
 const laurelsSorrowFrag = {
   id: 'eq-frag-laurelsSorrow',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/fashionArmor.webp';
-import imgBp from '@/assets/equipment/silver/fashionArmorBp.webp';
+import img from '@/assets/equipments/silver/fashionArmor.webp';
+import imgBp from '@/assets/equipments/silver/fashionArmorBp.webp';
 import { lightPlate } from '@/helpers/equipment/copper/lightPlate';
 
 const fashionArmorBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/cosmosCloth.webp';
-import imgBp from '@/assets/equipment/silver/cosmosClothBp.webp';
+import img from '@/assets/equipments/silver/cosmosCloth.webp';
+import imgBp from '@/assets/equipments/silver/cosmosClothBp.webp';
 import { millefeuilleCloth } from '@/helpers/equipment/silver/millefeuilleCloth';
 import { turquoiseEarrings } from '@/helpers/equipment/silver/turquoiseEarrings';
 

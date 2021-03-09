@@ -1,4 +1,4 @@
-import img from '../../../assets/equipment/common/woodGrip.webp';
+import img from '../../../assets/equipments/common/woodGrip.webp';
 
 const woodGrip = {
   id: 'eq-woodGrip',

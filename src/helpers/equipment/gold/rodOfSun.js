@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/rodOfSun.webp';
-import imgBp from '@/assets/equipment/gold/rodOfSunFrag.webp';
+import img from '@/assets/equipments/gold/rodOfSun.webp';
+import imgBp from '@/assets/equipments/gold/rodOfSunFrag.webp';
 
 const rodOfSunFrag = {
   id: 'eq-frag-rodOfSun',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/lightningFist.webp';
-import imgBp from '@/assets/equipment/gold/lightningFistFrag.webp';
+import img from '@/assets/equipments/gold/lightningFist.webp';
+import imgBp from '@/assets/equipments/gold/lightningFistFrag.webp';
 
 const lightningFistFrag = {
   id: 'eq-frag-lightningFist',

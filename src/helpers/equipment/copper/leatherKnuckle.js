@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/leatherKnuckle.webp';
+import img from '@/assets/equipments/copper/leatherKnuckle.webp';
 
 const leatherKnuckle = {
   id: 'eq-leatherKnuckle',

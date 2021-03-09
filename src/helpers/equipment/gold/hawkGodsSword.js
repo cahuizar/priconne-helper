@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/hawkGodsSword.webp';
-import imgBp from '@/assets/equipment/gold/hawkGodsSwordFrag.webp';
+import img from '@/assets/equipments/gold/hawkGodsSword.webp';
+import imgBp from '@/assets/equipments/gold/hawkGodsSwordFrag.webp';
 
 const hawkGodsSwordFrag = {
   id: 'eq-frag-hawkGodsSword',

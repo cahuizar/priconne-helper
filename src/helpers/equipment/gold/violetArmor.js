@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/violetArmor.webp';
-import imgBp from '@/assets/equipment/gold/violetArmorBp.webp';
+import img from '@/assets/equipments/gold/violetArmor.webp';
+import imgBp from '@/assets/equipments/gold/violetArmorBp.webp';
 import { mythrilPlate } from '@/helpers/equipment/gold/mythrilPlate';
 
 const violetArmorBp = {

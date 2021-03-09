@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/stormBringer.webp';
-import imgBp from '@/assets/equipment/gold/stormBringerBp.webp';
+import img from '@/assets/equipments/gold/stormBringer.webp';
+import imgBp from '@/assets/equipments/gold/stormBringerBp.webp';
 import { scarletDragon } from '@/helpers/equipment/gold/scarletDragon';
 
 const stormBringerBp = {

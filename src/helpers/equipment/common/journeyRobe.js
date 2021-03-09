@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/journeyRobe.webp';
+import img from '@/assets/equipments/common/journeyRobe.webp';
 
 const journeyRobe = {
   id: 'eq-journeyRobe',

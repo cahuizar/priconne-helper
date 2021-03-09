@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/aquaSlasher.webp';
-import imgBp from '@/assets/equipment/gold/aquaSlasherFrag.webp';
+import img from '@/assets/equipments/gold/aquaSlasher.webp';
+import imgBp from '@/assets/equipments/gold/aquaSlasherFrag.webp';
 
 const aquaSlasherFrag = {
   id: 'eq-frag-aquaSlasher',

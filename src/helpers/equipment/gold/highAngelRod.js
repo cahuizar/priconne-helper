@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/highAngelRod.webp';
-import imgBp from '@/assets/equipment/gold/highAngelRodFrag.webp';
+import img from '@/assets/equipments/gold/highAngelRod.webp';
+import imgBp from '@/assets/equipments/gold/highAngelRodFrag.webp';
 
 const highAngelRodFrag = {
   id: 'eq-frag-highAngelRod',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/angelBlade.webp';
-import imgBp from '@/assets/equipment/gold/angelBladeFrag.webp';
+import img from '@/assets/equipments/gold/angelBlade.webp';
+import imgBp from '@/assets/equipments/gold/angelBladeFrag.webp';
 
 const angelBladeFrag = {
   id: 'eq-frag-angelBlade',

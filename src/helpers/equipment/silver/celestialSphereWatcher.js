@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/celestialSphereWatcher.webp';
-import imgBp from '@/assets/equipment/silver/celestialSphereWatcherBp.webp';
+import img from '@/assets/equipments/silver/celestialSphereWatcher.webp';
+import imgBp from '@/assets/equipments/silver/celestialSphereWatcherBp.webp';
 import doctorlessStaff from '@/helpers/equipment/copper/doctorlessStaff';
 
 const celestialSphereWatcherBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/nunsHood.webp';
-import imgBp from '@/assets/equipment/copper/nunsHoodBp.webp';
+import img from '@/assets/equipments/copper/nunsHood.webp';
+import imgBp from '@/assets/equipments/copper/nunsHoodBp.webp';
 import doctorlessStaff from '@/helpers/equipment/copper/doctorlessStaff';
 
 const nunsHoodBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/crownBoots.webp';
-import imgBp from '@/assets/equipment/copper/crownBootsBp.webp';
+import img from '@/assets/equipments/copper/crownBoots.webp';
+import imgBp from '@/assets/equipments/copper/crownBootsBp.webp';
 import leatherBoots from '@/helpers/equipment/common/leatherBoots';
 
 const crownBootsBp = {

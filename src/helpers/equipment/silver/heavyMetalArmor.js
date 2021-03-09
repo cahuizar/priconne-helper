@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/heavyMetalArmor.webp';
-import imgBp from '@/assets/equipment/silver/heavyMetalArmorFrag.webp';
+import img from '@/assets/equipments/silver/heavyMetalArmor.webp';
+import imgBp from '@/assets/equipments/silver/heavyMetalArmorFrag.webp';
 
 const heavyMetalArmorFrag = {
   id: 'eq-frag-heavyMetalArmor',

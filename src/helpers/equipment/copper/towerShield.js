@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/towerShield.webp';
-import imgBp from '@/assets/equipment/copper/towerShieldBp.webp';
+import img from '@/assets/equipments/copper/towerShield.webp';
+import imgBp from '@/assets/equipments/copper/towerShieldBp.webp';
 import treeShield from '@/helpers/equipment/common/treeShield';
 
 const towerShieldBp = {

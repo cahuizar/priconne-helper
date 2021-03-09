@@ -1,32 +1,30 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <p-nav />
+    <v-main>
+      <v-container class="mt-6" fluid>
+        <router-view></router-view>
+      </v-container>
+    </v-main>
+    <p-footer />
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import logo from '@/assets/logo.jpg';
+import Footer from '@/components/Layout/Footer.vue';
+import Nav from './components/Layout/Nav.vue';
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+export default {
+  name: 'App',
+  components: {
+    PNav: Nav,
+    PFooter: Footer,
+  },
+  data() {
+    return {
+      logo,
+    };
+  },
+};
+</script>

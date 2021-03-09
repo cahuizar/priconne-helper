@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/brightSword.webp';
-import imgBp from '@/assets/equipment/gold/brightSwordBp.webp';
+import img from '@/assets/equipments/gold/brightSword.webp';
+import imgBp from '@/assets/equipments/gold/brightSwordBp.webp';
 import { featherBlade } from '@/helpers/equipment/silver/featherBlade';
 
 const brightSwordBp = {

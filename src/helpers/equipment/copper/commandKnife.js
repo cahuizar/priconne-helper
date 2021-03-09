@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/commandKnife.webp';
+import img from '@/assets/equipments/copper/commandKnife.webp';
 
 const commandKnife = {
   id: 'eq-commandKnife',

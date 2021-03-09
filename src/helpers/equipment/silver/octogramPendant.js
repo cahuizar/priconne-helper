@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/octogramPendant.webp';
-import imgBp from '@/assets/equipment/silver/octogramPendantBp.webp';
+import img from '@/assets/equipments/silver/octogramPendant.webp';
+import imgBp from '@/assets/equipments/silver/octogramPendantBp.webp';
 import victoryFriendshipBracelet from '@/helpers/equipment/copper/victoryFriendshipBracelet';
 
 const octogramPendantBp = {

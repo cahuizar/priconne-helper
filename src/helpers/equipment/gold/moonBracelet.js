@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/moonBracelet.webp';
-import imgBp from '@/assets/equipment/gold/moonBraceletFrag.webp';
+import img from '@/assets/equipments/gold/moonBracelet.webp';
+import imgBp from '@/assets/equipments/gold/moonBraceletFrag.webp';
 
 const moonBraceletFrag = {
   id: 'eq-frag-moonBracelet',

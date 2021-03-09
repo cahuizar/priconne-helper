@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/guardianShield.webp';
-import imgBp from '@/assets/equipment/gold/guardianShieldBp.webp';
+import img from '@/assets/equipments/gold/guardianShield.webp';
+import imgBp from '@/assets/equipments/gold/guardianShieldBp.webp';
 import { empressShield } from '@/helpers/equipment/gold/empressShield';
 
 const guardianShieldBp = {

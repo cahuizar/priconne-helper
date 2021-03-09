@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/millefeuilleCloth.webp';
-import imgBp from '@/assets/equipment/silver/millefeuilleClothBp.webp';
+import img from '@/assets/equipments/silver/millefeuilleCloth.webp';
+import imgBp from '@/assets/equipments/silver/millefeuilleClothBp.webp';
 import { shinobiCostume } from '@/helpers/equipment/copper/shinobiCostume';
 
 const millefeuilleClothBp = {

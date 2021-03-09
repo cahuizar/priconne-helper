@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/sunAmulet.webp';
-import imgBp from '@/assets/equipment/gold/sunAmuletFrag.webp';
+import img from '@/assets/equipments/gold/sunAmulet.webp';
+import imgBp from '@/assets/equipments/gold/sunAmuletFrag.webp';
 
 const sunAmuletFrag = {
   id: 'eq-frag-sunAmulet',

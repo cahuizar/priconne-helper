@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/scarletMail.webp';
-import imgBp from '@/assets/equipment/gold/scarletMailBp.webp';
+import img from '@/assets/equipments/gold/scarletMail.webp';
+import imgBp from '@/assets/equipments/gold/scarletMailBp.webp';
 import { invisibleDress } from '@/helpers/equipment/gold/invisibleDress';
 import { elementalHeart } from '@/helpers/equipment/gold/elementalHeart';
 

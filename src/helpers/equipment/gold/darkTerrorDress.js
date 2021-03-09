@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/darkTerrorDress.webp';
-import imgBp from '@/assets/equipment/gold/darkTerrorDressBp.webp';
+import img from '@/assets/equipments/gold/darkTerrorDress.webp';
+import imgBp from '@/assets/equipments/gold/darkTerrorDressBp.webp';
 import { hermitClothes } from '@/helpers/equipment/gold/hermitClothes';
 import { shiryuuAxe } from '@/helpers/equipment/gold/shiryuuAxe';
 

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/bangleOfSubstitution.webp';
-import imgBp from '@/assets/equipment/gold/bangleOfSubstitutionFrag.webp';
+import img from '@/assets/equipments/gold/bangleOfSubstitution.webp';
+import imgBp from '@/assets/equipments/gold/bangleOfSubstitutionFrag.webp';
 
 const bangleOfSubstitutionFrag = {
   id: 'eq-frag-bangleOfSubstitution',

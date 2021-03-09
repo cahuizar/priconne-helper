@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/furyRod.webp';
-import imgBp from '@/assets/equipment/gold/furyRodFrag.webp';
+import img from '@/assets/equipments/gold/furyRod.webp';
+import imgBp from '@/assets/equipments/gold/furyRodFrag.webp';
 
 const furyRodFrag = {
   id: 'eq-frag-furyRod',

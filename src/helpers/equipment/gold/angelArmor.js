@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/angelArmor.webp';
-import imgBp from '@/assets/equipment/gold/angelArmorBp.webp';
+import img from '@/assets/equipments/gold/angelArmor.webp';
+import imgBp from '@/assets/equipments/gold/angelArmorBp.webp';
 import { lionKingsProtectiveCharm } from '@/helpers/equipment/silver/lionKingsProtectiveCharm';
 import { gorgeousArmor } from '@/helpers/equipment/silver/gorgeousArmor';
 

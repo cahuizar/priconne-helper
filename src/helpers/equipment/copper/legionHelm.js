@@ -1,6 +1,6 @@
-import img from '@/assets/equipment/copper/legionHelm.webp';
-import imgBp from '@/assets/equipment/copper/legionHelmBp.webp';
-import scaleMail from '@/helpers/equipment/copper/scaleMail';
+import img from '@/assets/equipments/copper/legionHelm.webp';
+import imgBp from '@/assets/equipments/copper/legionHelmBp.webp';
+import { scaleMail } from '@/helpers/equipment/copper/scaleMail';
 
 const legionHelmBp = {
   id: 'eq-bp-legionHelm',

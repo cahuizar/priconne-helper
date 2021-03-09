@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/butterflyKatana.webp';
-import imgBp from '@/assets/equipment/gold/butterflyKatanaFrag.webp';
+import img from '@/assets/equipments/gold/butterflyKatana.webp';
+import imgBp from '@/assets/equipments/gold/butterflyKatanaFrag.webp';
 
 const butterflyKatanaFrag = {
   id: 'eq-frag-butterflyKatana',

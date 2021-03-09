@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/blueBlood.webp';
+import img from '@/assets/equipments/copper/blueBlood.webp';
 
 const blueBlood = {
   id: 'eq-blueBlood',

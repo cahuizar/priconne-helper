@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/moonWand.webp';
-import imgBp from '@/assets/equipment/gold/moonWandBp.webp';
+import img from '@/assets/equipments/gold/moonWand.webp';
+import imgBp from '@/assets/equipments/gold/moonWandBp.webp';
 import { devilsHorn } from '@/helpers/equipment/silver/devilsHorn';
 
 const moonWandBp = {

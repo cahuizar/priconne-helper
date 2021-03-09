@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/blizzardClaw.webp';
-import imgBp from '@/assets/equipment/gold/blizzardClawBp.webp';
+import img from '@/assets/equipments/gold/blizzardClaw.webp';
+import imgBp from '@/assets/equipments/gold/blizzardClawBp.webp';
 import { blazingGauntlet } from '@/helpers/equipment/gold/blazingGauntlet';
 import { turquoiseEarrings } from '@/helpers/equipment/silver/turquoiseEarrings';
 

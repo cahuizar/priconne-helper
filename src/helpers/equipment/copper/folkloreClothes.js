@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/folkloreClothes.webp';
-import imgBp from '@/assets/equipment/copper/folkloreClothesBp.webp';
+import img from '@/assets/equipments/copper/folkloreClothes.webp';
+import imgBp from '@/assets/equipments/copper/folkloreClothesBp.webp';
 import protectivePendant from '@/helpers/equipment/common/protectivePendant';
 
 const folkloreClothesBp = {

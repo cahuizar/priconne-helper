@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/moonlightGarment.webp';
-import imgBp from '@/assets/equipment/gold/moonlightGarmentFrag.webp';
+import img from '@/assets/equipments/gold/moonlightGarment.webp';
+import imgBp from '@/assets/equipments/gold/moonlightGarmentFrag.webp';
 
 const moonlightGarmentFrag = {
   id: 'eq-frag-moonlightGarment',

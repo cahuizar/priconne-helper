@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/greenRod.webp';
+import img from '@/assets/equipments/copper/greenRod.webp';
 
 const greenRod = {
   id: 'eq-greenRod',

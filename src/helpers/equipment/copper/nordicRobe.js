@@ -1,6 +1,6 @@
-import img from '@/assets/equipment/copper/nordicRobe.webp';
-import imgBp from '@/assets/equipment/copper/nordicRobeBp.webp';
-import springColorRobe from '@/helpers/equipment/copper/springColorRobe';
+import img from '@/assets/equipments/copper/nordicRobe.webp';
+import imgBp from '@/assets/equipments/copper/nordicRobeBp.webp';
+import { springColorRobe } from '@/helpers/equipment/copper/springColorRobe';
 
 const nordicRobeBp = {
   id: 'eq-bp-nordicRobe',

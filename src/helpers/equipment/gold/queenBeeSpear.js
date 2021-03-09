@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/queenBeeSpear.webp';
-import imgBp from '@/assets/equipment/gold/queenBeeSpearFrag.webp';
+import img from '@/assets/equipments/gold/queenBeeSpear.webp';
+import imgBp from '@/assets/equipments/gold/queenBeeSpearFrag.webp';
 
 const queenBeeSpearFrag = {
   id: 'eq-frag-queenBeeSpear',

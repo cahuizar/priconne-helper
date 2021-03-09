@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/patternBracelet.webp';
-import imgBp from '@/assets/equipment/copper/patternBraceletBp.webp';
+import img from '@/assets/equipments/copper/patternBracelet.webp';
+import imgBp from '@/assets/equipments/copper/patternBraceletBp.webp';
 import jewelOfWisdom from '@/helpers/equipment/copper/jewelOfWisdom';
 
 const patternBraceletBp = {

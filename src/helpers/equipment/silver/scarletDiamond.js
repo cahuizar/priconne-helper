@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/scarletDiamond.webp';
-import imgBp from '@/assets/equipment/silver/scarletDiamondFrag.webp';
+import img from '@/assets/equipments/silver/scarletDiamond.webp';
+import imgBp from '@/assets/equipments/silver/scarletDiamondFrag.webp';
 
 const scarletDiamondFrag = {
   id: 'eq-frag-scarletDiamond',

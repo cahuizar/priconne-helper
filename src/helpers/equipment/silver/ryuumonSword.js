@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/ryuumonSword.webp';
-import imgBp from '@/assets/equipment/silver/ryuumonSwordFrag.webp';
+import img from '@/assets/equipments/silver/ryuumonSword.webp';
+import imgBp from '@/assets/equipments/silver/ryuumonSwordFrag.webp';
 
 const ryuumonSwordFrag = {
   id: 'eq-frag-ryuumonSword',

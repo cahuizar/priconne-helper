@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/gearBlade.webp';
+import img from '@/assets/equipments/copper/gearBlade.webp';
 
 const gearBlade = {
   id: 'eq-gearBlade',

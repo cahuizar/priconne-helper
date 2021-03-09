@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/preciousKnife.webp';
-import imgBp from '@/assets/equipment/gold/preciousKnifeFrag.webp';
+import img from '@/assets/equipments/gold/preciousKnife.webp';
+import imgBp from '@/assets/equipments/gold/preciousKnifeFrag.webp';
 import { featherBlade } from '@/helpers/equipment/silver/featherBlade';
 
 const preciousKnifeFrag = {

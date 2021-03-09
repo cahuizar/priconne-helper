@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/vampireDagger.webp';
-import imgBp from '@/assets/equipment/silver/vampireDaggerBp.webp';
+import img from '@/assets/equipments/silver/vampireDagger.webp';
+import imgBp from '@/assets/equipments/silver/vampireDaggerBp.webp';
 import { lionEaglesFeather } from '@/helpers/equipment/silver/lionEaglesFeather';
 
 const vampireDaggerBp = {

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/iceClaymore.webp';
-import imgBp from '@/assets/equipment/gold/iceClaymoreFrag.webp';
+import img from '@/assets/equipments/gold/iceClaymore.webp';
+import imgBp from '@/assets/equipments/gold/iceClaymoreFrag.webp';
 
 const iceClaymoreFrag = {
   id: 'eq-frag-iceClaymore',

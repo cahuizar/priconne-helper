@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/crystalBow.webp';
+import img from '@/assets/equipments/copper/crystalBow.webp';
 
 const crystalBow = {
   id: 'eq-crystalBow',

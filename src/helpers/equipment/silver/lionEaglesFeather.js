@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/lionEaglesFeather.webp';
-import imgBp from '@/assets/equipment/silver/lionEaglesFeatherFrag.webp';
+import img from '@/assets/equipments/silver/lionEaglesFeather.webp';
+import imgBp from '@/assets/equipments/silver/lionEaglesFeatherFrag.webp';
 
 const lionEaglesFeatherFrag = {
   id: 'eq-frag-lionEaglesFeather',

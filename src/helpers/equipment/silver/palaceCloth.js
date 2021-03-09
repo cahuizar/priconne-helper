@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/palaceCloth.webp';
-import imgBp from '@/assets/equipment/silver/palaceClothFrag.webp';
+import img from '@/assets/equipments/silver/palaceCloth.webp';
+import imgBp from '@/assets/equipments/silver/palaceClothFrag.webp';
 
 const palaceClothFrag = {
   id: 'eq-frag-palaceCloth',

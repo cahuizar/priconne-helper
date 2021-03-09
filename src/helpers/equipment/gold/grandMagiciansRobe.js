@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/grandMagiciansRobe.webp';
-import imgBp from '@/assets/equipment/gold/grandMagiciansRobeFrag.webp';
+import img from '@/assets/equipments/gold/grandMagiciansRobe.webp';
+import imgBp from '@/assets/equipments/gold/grandMagiciansRobeFrag.webp';
 
 const grandMagiciansRobeFrag = {
   id: 'eq-frag-grandMagiciansRobe',

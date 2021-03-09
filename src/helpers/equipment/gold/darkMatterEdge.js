@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/darkMatterEdge.webp';
-import imgBp from '@/assets/equipment/gold/darkMatterEdgeFrag.webp';
+import img from '@/assets/equipments/gold/darkMatterEdge.webp';
+import imgBp from '@/assets/equipments/gold/darkMatterEdgeFrag.webp';
 
 const darkMatterEdgeFrag = {
   id: 'eq-frag-darkMatterEdge',

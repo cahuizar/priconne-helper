@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/lionKingGauntlet.webp';
-import imgBp from '@/assets/equipment/gold/lionKingGauntletFrag.webp';
+import img from '@/assets/equipments/gold/lionKingGauntlet.webp';
+import imgBp from '@/assets/equipments/gold/lionKingGauntletFrag.webp';
 
 const lionKingGauntletFrag = {
   id: 'eq-frag-lionKingGauntlet',

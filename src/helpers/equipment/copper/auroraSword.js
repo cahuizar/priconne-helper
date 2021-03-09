@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/auroraSword.webp';
+import img from '@/assets/equipments/copper/auroraSword.webp';
 
 const auroraSword = {
   id: 'eq-auroraSword',

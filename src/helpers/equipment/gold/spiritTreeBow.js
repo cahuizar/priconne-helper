@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/spiritTreeBow.webp';
-import imgBp from '@/assets/equipment/gold/spiritTreeBowFrag.webp';
+import img from '@/assets/equipments/gold/spiritTreeBow.webp';
+import imgBp from '@/assets/equipments/gold/spiritTreeBowFrag.webp';
 
 const spiritTreeBowFrag = {
   id: 'eq-frag-spiritTreeBow',

@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/greatSageGem.webp';
-import imgBp from '@/assets/equipment/gold/greatSageGemFrag.webp';
+import img from '@/assets/equipments/gold/greatSageGem.webp';
+import imgBp from '@/assets/equipments/gold/greatSageGemFrag.webp';
 
 const greatSageGemFrag = {
   id: 'eq-frag-greatSageGem',

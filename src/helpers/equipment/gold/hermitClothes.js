@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/hermitClothes.webp';
-import imgBp from '@/assets/equipment/gold/hermitClothesBp.webp';
+import img from '@/assets/equipments/gold/hermitClothes.webp';
+import imgBp from '@/assets/equipments/gold/hermitClothesBp.webp';
 import { vampireDagger } from '@/helpers/equipment/silver/vampireDagger';
 import { opalEarrings } from '@/helpers/equipment/silver/opalEarrings';
 

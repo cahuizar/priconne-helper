@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/copper/shinobiCostume.webp';
-import imgBp from '@/assets/equipment/copper/shinobiCostumeBp.webp';
+import img from '@/assets/equipments/copper/shinobiCostume.webp';
+import imgBp from '@/assets/equipments/copper/shinobiCostumeBp.webp';
 import { folkloreClothes } from '@/helpers/equipment/copper/folkloreClothes';
 
 const shinobiCostumeBp = {

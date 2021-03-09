@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/lightningBow.webp';
-import imgBp from '@/assets/equipment/gold/lightningBowBp.webp';
+import img from '@/assets/equipments/gold/lightningBow.webp';
+import imgBp from '@/assets/equipments/gold/lightningBowBp.webp';
 import { turquoiseEarrings } from '@/helpers/equipment/silver/turquoiseEarrings';
 import { devilsBow } from '@/helpers/equipment/silver/devilsBow';
 

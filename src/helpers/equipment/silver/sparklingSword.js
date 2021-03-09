@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/sparklingSword.webp';
-import imgBp from '@/assets/equipment/silver/sparklingSwordFrag.webp';
+import img from '@/assets/equipments/silver/sparklingSword.webp';
+import imgBp from '@/assets/equipments/silver/sparklingSwordFrag.webp';
 
 const sparklingSwordFrag = {
   id: 'eq-frag-sparklingSword',

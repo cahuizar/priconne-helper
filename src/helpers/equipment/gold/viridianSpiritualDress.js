@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/viridianSpiritualDress.webp';
-import imgBp from '@/assets/equipment/gold/viridianSpiritualDressBp.webp';
+import img from '@/assets/equipments/gold/viridianSpiritualDress.webp';
+import imgBp from '@/assets/equipments/gold/viridianSpiritualDressBp.webp';
 import { saintsRobe } from '@/helpers/equipment/gold/saintsRobe';
 import { moonWand } from '@/helpers/equipment/gold/moonWand';
 

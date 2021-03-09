@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/opalEarrings.webp';
-import imgBp from '@/assets/equipment/silver/opalEarringsFrag.webp';
+import img from '@/assets/equipments/silver/opalEarrings.webp';
+import imgBp from '@/assets/equipments/silver/opalEarringsFrag.webp';
 
 const opalEarringsFrag = {
   id: 'eq-frag-opalEarrings',

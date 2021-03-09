@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/trident.webp';
+import img from '@/assets/equipments/copper/trident.webp';
 
 const trident = {
   id: 'eq-trident',

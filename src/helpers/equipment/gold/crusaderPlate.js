@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/crusaderPlate.webp';
-import imgBp from '@/assets/equipment/gold/crusaderPlateBp.webp';
+import img from '@/assets/equipments/gold/crusaderPlate.webp';
+import imgBp from '@/assets/equipments/gold/crusaderPlateBp.webp';
 import { invisibleDress } from '@/helpers/equipment/gold/invisibleDress';
 
 const crusaderPlateBp = {

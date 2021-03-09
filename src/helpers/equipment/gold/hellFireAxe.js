@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/hellFireAxe.webp';
-import imgBp from '@/assets/equipment/gold/hellFireAxeBp.webp';
+import img from '@/assets/equipments/gold/hellFireAxe.webp';
+import imgBp from '@/assets/equipments/gold/hellFireAxeBp.webp';
 import { scarletDiamond } from '@/helpers/equipment/silver/scarletDiamond';
 
 const hellFireAxeBp = {

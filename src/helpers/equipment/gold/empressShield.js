@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/empressShield.webp';
-import imgBp from '@/assets/equipment/gold/empressShieldBp.webp';
+import img from '@/assets/equipments/gold/empressShield.webp';
+import imgBp from '@/assets/equipments/gold/empressShieldBp.webp';
 import { lionKingsProtectiveCharm } from '@/helpers/equipment/silver/lionKingsProtectiveCharm';
 import sorcerersGlasses from '@/helpers/equipment/silver/sorcerersGlasses';
 

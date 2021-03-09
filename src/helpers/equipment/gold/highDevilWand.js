@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/highDevilWand.webp';
-import imgBp from '@/assets/equipment/gold/highDevilWandBp.webp';
+import img from '@/assets/equipments/gold/highDevilWand.webp';
+import imgBp from '@/assets/equipments/gold/highDevilWandBp.webp';
 import { furyRod } from '@/helpers/equipment/gold/furyRod';
 import { mourningCrescentMoon } from '@/helpers/equipment/gold/mourningCrescentMoon';
 

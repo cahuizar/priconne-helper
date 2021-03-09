@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/gospelTiara.webp';
-import imgBp from '@/assets/equipment/gold/gospelTiaraBp.webp';
+import img from '@/assets/equipments/gold/gospelTiara.webp';
+import imgBp from '@/assets/equipments/gold/gospelTiaraBp.webp';
 import { wizardHood } from '@/helpers/equipment/gold/wizardHood';
 import { laurelsSorrow } from '@/helpers/equipment/silver/laurelsSorrow';
 import { pearlEarrings } from '@/helpers/equipment/silver/pearlEarrings';

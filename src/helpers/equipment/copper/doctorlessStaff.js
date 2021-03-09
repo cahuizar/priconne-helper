@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/copper/doctorlessStaff.webp';
+import img from '@/assets/equipments/copper/doctorlessStaff.webp';
 
 const doctorlessStaff = {
   id: 'eq-doctorlessStaff',

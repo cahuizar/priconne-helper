@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/flowerBudWand.webp';
-import imgBp from '@/assets/equipment/silver/flowerBudWandFrag.webp';
+import img from '@/assets/equipments/silver/flowerBudWand.webp';
+import imgBp from '@/assets/equipments/silver/flowerBudWandFrag.webp';
 
 const flowerBudWandFrag = {
   id: 'eq-frag-flowerBudWand',

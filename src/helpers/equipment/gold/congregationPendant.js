@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/congregationPendant.webp';
-import imgBp from '@/assets/equipment/gold/congregationPendantFrag.webp';
+import img from '@/assets/equipments/gold/congregationPendant.webp';
+import imgBp from '@/assets/equipments/gold/congregationPendantFrag.webp';
 
 const congregationPendantFrag = {
   id: 'eq-frag-congregationPendant',

@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/fragrantWoodWand.webp';
+import img from '@/assets/equipments/common/fragrantWoodWand.webp';
 
 const fragrantWoodWand = {
   id: 'eq-fragrantWoodWand',

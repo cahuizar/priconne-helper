@@ -1,6 +1,6 @@
-import img from '@/assets/equipment/copper/huntingBoots.webp';
-import imgBp from '@/assets/equipment/copper/huntingBootsBp.webp';
-import crownBoots from '@/helpers/equipment/copper/crownBoots';
+import img from '@/assets/equipments/copper/huntingBoots.webp';
+import imgBp from '@/assets/equipments/copper/huntingBootsBp.webp';
+import { crownBoots } from '@/helpers/equipment/copper/crownBoots';
 
 const huntingBootsBp = {
   id: 'eq-bp-huntingBoots',

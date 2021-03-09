@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/devilsBow.webp';
-import imgBp from '@/assets/equipment/silver/devilsBowBp.webp';
+import img from '@/assets/equipments/silver/devilsBow.webp';
+import imgBp from '@/assets/equipments/silver/devilsBowBp.webp';
 import { cupidsBow } from '@/helpers/equipment/silver/cupidsBow';
 
 const devilsBowBp = {

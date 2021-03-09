@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/treeShield.webp';
+import img from '@/assets/equipments/common/treeShield.webp';
 
 const treeShield = {
   id: 'eq-treeShield',

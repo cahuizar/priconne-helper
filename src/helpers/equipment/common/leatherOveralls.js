@@ -1,4 +1,4 @@
-import img from '@/assets/equipment/common/leatherOveralls.webp';
+import img from '@/assets/equipments/common/leatherOveralls.webp';
 
 const leatherOveralls = {
   id: 'eq-leatherOveralls',

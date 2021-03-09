@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/gold/dragonicArmor.webp';
-import imgBp from '@/assets/equipment/gold/dragonicArmorBp.webp';
+import img from '@/assets/equipments/gold/dragonicArmor.webp';
+import imgBp from '@/assets/equipments/gold/dragonicArmorBp.webp';
 import { vermilionPlate } from '@/helpers/equipment/gold/vermilionPlate';
 import { scarletDragon } from '@/helpers/equipment/gold/scarletDragon';
 

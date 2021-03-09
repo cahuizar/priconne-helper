@@ -1,5 +1,5 @@
-import img from '@/assets/equipment/silver/moonlightSword.webp';
-import imgBp from '@/assets/equipment/silver/moonlightSwordBp.webp';
+import img from '@/assets/equipments/silver/moonlightSword.webp';
+import imgBp from '@/assets/equipments/silver/moonlightSwordBp.webp';
 import { platinumKnife } from '@/helpers/equipment/silver/platinumKnife';
 
 const moonlightSwordBp = {
