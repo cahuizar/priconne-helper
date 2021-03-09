@@ -6,6 +6,7 @@ Vue.use(Vuetify);
 
 export default new Vuetify({
   theme: {
+    options: { customProperties: true },
     themes: {
       light: {
         primary: colors.blue.base,
@@ -15,6 +16,12 @@ export default new Vuetify({
         warning: colors.deepOrange.base,
         info: colors.yellow.base,
         success: colors.green.base,
+        common: '#88acf0',
+        copper: '#f7ba9c',
+        silver: '#deebf7',
+        gold: '#ffdf73',
+        purple: '#d67dff',
+        red: '#f7515a',
       },
     },
   },

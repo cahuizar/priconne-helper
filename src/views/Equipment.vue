@@ -35,35 +35,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  @import '~vuetify/src/styles/styles.sass';
   .expansion {
     &--common {
       .v-expansion-panel-header {
-        background: #88acf0 !important;
+        background: var(--v-common-base);
       }
     }
     &--copper {
       .v-expansion-panel-header {
-        background: #f7ba9c !important;
+        background: var(--v-copper-base);
       }
     }
     &--silver {
       .v-expansion-panel-header {
-        background: #deebf7;
+        background: var(--v-silver-base);
       }
     }
     &--gold {
       .v-expansion-panel-header {
-        background: #ffdf73;
+        background: var(--v-gold-base);
       }
     }
     &--purple {
       .v-expansion-panel-header {
-        background: #d67dff !important;
+        background: var(--v-purple-base);
       }
     }
     &--red {
       .v-expansion-panel-header {
-        background: #f7515a;
+        background: var(--v-red-base);
       }
     }
   }
