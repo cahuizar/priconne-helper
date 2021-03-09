@@ -1,6 +1,5 @@
 <template>
   <h1>All Characters</h1>
-
 </template>
 
 <script>
