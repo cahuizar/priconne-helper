@@ -1,6 +1,6 @@
 import img from '@/assets/equipments/copper/highMetalPlate.webp';
 import imgBp from '@/assets/equipments/copper/highMetalPlateBp.webp';
-import scaleMail from '@/helpers/equipment/copper/scaleMail';
+import { scaleMail } from '@/helpers/equipment/copper/scaleMail';
 
 const highMetalPlateBp = {
   id: 'eq-bp-highMetalPlate',
