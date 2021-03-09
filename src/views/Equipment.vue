@@ -1,11 +1,11 @@
 <template>
     <v-expansion-panels popout multiple>
-      <v-expansion-panel :class="'expansion--'+equipment.name.toLocaleLowerCase()"
+      <v-expansion-panel :class="'mb-6 expansion--'+equipment.name.toLocaleLowerCase()"
                          v-for="equipment in equipments" :key="equipment.name">
         <v-expansion-panel-header>
           <h2 :class="equipment.name.toLocaleLowerCase()">{{ equipment.name }}</h2>
           <template v-slot:actions>
-            <v-icon color="white">
+            <v-icon large color="white">
               $expand
             </v-icon>
           </template>

@@ -2,7 +2,7 @@
   <v-app>
     <p-nav />
     <v-main>
-      <v-container fluid>
+      <v-container class="mt-6" fluid>
         <router-view></router-view>
       </v-container>
     </v-main>
