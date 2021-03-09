@@ -1,5 +1,6 @@
 <template>
-<h1>Clan Battle</h1>
+  <h1>Clan Battle</h1>
+  <p>Coming Soon</p>
 </template>
 
 <script>

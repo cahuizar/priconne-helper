@@ -1,5 +1,6 @@
 <template>
   <h1>My Characters</h1>
+  <p>Coming Soon</p>
 </template>
 
 <script>

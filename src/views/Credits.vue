@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Credits</h1>
+    <p>Coming Soon</p>
   </div>
 </template>
 

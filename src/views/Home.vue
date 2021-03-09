@@ -1,9 +1,9 @@
 <template>
   <h1>Home</h1>
+  <p>Coming Soon</p>
 </template>
 
 <script>
-// @ is an alias to /src
 import { cosmosCloth } from '@/helpers/equipment/silver/cosmosCloth';
 import itemsRequiredBuilder from '@/helpers/itemsRequiredBuilder';
 

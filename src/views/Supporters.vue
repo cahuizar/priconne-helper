@@ -1,5 +1,6 @@
 <template>
   <h1>Supporters</h1>
+  <p>Coming Soon</p>
 </template>
 
 <script>
