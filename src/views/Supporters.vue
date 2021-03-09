@@ -1,6 +1,8 @@
 <template>
-  <h1>Supporters</h1>
-  <p>Coming Soon</p>
+  <div>
+    <h1>Supporters</h1>
+    <p>Coming Soon</p>
+  </div>
 </template>
 
 <script>

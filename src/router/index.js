@@ -6,8 +6,6 @@ import ClanBattle from '@/views/ClanBattle.vue';
 import Credits from '@/views/Credits.vue';
 import Characters from '@/views/Characters.vue';
 import Equipment from '@/views/Equipment.vue';
-import DataCharacters from '@/views/Data/Characters.vue';
-import DataEquipment from '@/views/Data/Equipment.vue';
 
 Vue.use(VueRouter);
 
@@ -41,16 +39,6 @@ const routes = [
     path: '/equipment',
     name: 'Equipment',
     component: Equipment,
-  },
-  {
-    path: '/data/characters',
-    name: 'DataCharacters',
-    component: DataCharacters,
-  },
-  {
-    path: '/data/equipment',
-    name: 'DataEquipment',
-    component: DataEquipment,
   },
 ];
 

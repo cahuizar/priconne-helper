@@ -71,16 +71,10 @@ export default {
         text: 'Home',
       }, {
         to: '/characters',
-        text: 'My Characters',
+        text: 'Characters',
       }, {
         to: '/equipment',
-        text: 'My Equipment',
-      }, {
-        to: '/data/characters',
-        text: 'All Characters',
-      }, {
-        to: '/data/equipment',
-        text: 'All Equipment',
+        text: 'Equipment',
       }, {
         to: '/clan-battle',
         text: 'Clan Battle',

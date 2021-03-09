@@ -1,6 +1,8 @@
 <template>
-  <h1>Clan Battle</h1>
-  <p>Coming Soon</p>
+  <div>
+    <h1>Clan Battle</h1>
+    <p>Coming Soon</p>
+  </div>
 </template>
 
 <script>

@@ -1,6 +1,8 @@
 <template>
-  <h1>My Equipment</h1>
-  <p>Coming Soon</p>
+  <div>
+    <h1>All Equipment</h1>
+    <p>Coming Soon</p>
+  </div>
 </template>
 
 <script>
