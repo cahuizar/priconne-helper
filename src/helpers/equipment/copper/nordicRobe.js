@@ -1,0 +1,29 @@
+import img from '@/assets/equipments/copper/nordicRobe.webp';
+import imgBp from '@/assets/equipments/copper/nordicRobeBp.webp';
+import { springColorRobe } from '@/helpers/equipment/copper/springColorRobe';
+
+const nordicRobeBp = {
+  id: 'eq-bp-nordicRobe',
+  name: 'Nordic Robe Blueprint',
+  imgPath: imgBp,
+  rarity: 'copper',
+  formula: [],
+};
+
+const nordicRobe = {
+  id: 'eq-nordicRobe',
+  name: 'Nordic Robe',
+  imgPath: img,
+  rarity: 'copper',
+  formula: [
+    {
+      item: nordicRobeBp,
+      qtn: 1,
+    }, {
+      item: springColorRobe,
+      qtn: 1,
+    },
+  ],
+};
+
+export { nordicRobe, nordicRobeBp };
