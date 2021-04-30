@@ -19,6 +19,16 @@ infrastructure/Pulumi.prod.yaml
 infrastructure/node_modules
 infrastructure/bin
 
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+config/default.json
+.local.env
+.env
+
 # Editor directories and files
 .idea
 .vscode
