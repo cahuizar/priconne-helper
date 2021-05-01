@@ -32,10 +32,6 @@ export default {
           icon: 'mdi-heart-outline',
         },
         {
-          to: '/supporters',
-          icon: 'mdi-handshake-outline',
-        },
-        {
           href: 'https://github.com/cahuizar/priconne-helper',
           icon: 'mdi-github',
         },

@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '@/views/Home.vue';
-import Supporters from '@/views/Supporters.vue';
 import ClanBattle from '@/views/ClanBattle.vue';
 import Credits from '@/views/Credits.vue';
 import Characters from '@/views/Characters.vue';
@@ -24,11 +23,6 @@ const routes = [
     path: '/clan-battle',
     name: 'ClanBattle',
     component: ClanBattle,
-  },
-  {
-    path: '/supporters',
-    name: 'Supporters',
-    component: Supporters,
   },
   {
     path: '/characters',

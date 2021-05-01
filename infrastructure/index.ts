@@ -22,7 +22,7 @@ const plan = new web.AppServicePlan("plan", {
 //
 // Scenario 2: deploying a custom image from Azure Container Registry.
 //
-const customImage = "ui";
+const customImage = "client";
 const registry = new containerregistry.Registry("registry", {
   resourceGroupName: resourceGroup.name,
   sku: {
