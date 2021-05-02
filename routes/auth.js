@@ -13,7 +13,7 @@ const router = express.Router();
 // @access    Private
 router.get('/', auth, async (req, res) => {
   try {
-    const user = await User.findById(req.user.id).select('-password -date -__v');
+    const user = await User.findById(req.user.id).select('-password -date -__v -resetPasswordToken -resetPasswordExpires');
     res.json(user);
   } catch (err) {
     console.log(err.message);
@@ -40,17 +40,18 @@ router.post(
       const isMatch = await bcrypt.compare(req.body.password, user.password);
       if (!isMatch) res.status(400).json({ msg: 'Invalid Credentials' });
       const {
-        _id,
+        id,
         email,
         username,
         role,
         items,
         characters,
+        clan,
         settings
       } = user;
       const payload = {
         user: {
-          id: user.id
+          id
         }
       };
       jwt.sign(
@@ -62,9 +63,10 @@ router.post(
         (err, token) => {
           if (err) throw err;
           res.json({
-            _id,
+            id,
             email,
             username,
+            clan,
             role,
             items,
             characters,
