@@ -17,15 +17,18 @@ router.post(
   '/',
   [
     check('email', 'Please include a valid email').isEmail(),
-    check('username', 'Please add a username')
+    check('username')
       .not()
-      .isEmpty(),
-    check(
-      'password',
-      'Please enter a password with 6 or more characters'
-    ).isLength({
-      min: 6
-    })
+      .isEmpty()
+      .withMessage('Username must not be empty')
+      .custom(value => !/\s/.test(value))
+      .withMessage('No spaces are allowed in the username')
+      .isLength({ max: 15 })
+      .withMessage('Username must be at most 15 characters long'),
+    check('password', 'Please enter a password with 6 or more characters')
+      .custom(value => !/\s/.test(value))
+      .withMessage('No spaces are allowed in the password')
+      .isLength({ min: 6 })
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -41,13 +44,19 @@ router.post(
     } = req.body;
 
     try {
-      let user = await User.findOne({
+      let userEmail = await User.findOne({
         email
       });
-      if (user) return res.status(400).json({
-        msg: 'User already exists'
+      if (userEmail) return res.status(400).json({
+        msg: 'Email is already in use, please use a different one.'
       });
-      user = new User({
+      let userUsername = await User.findOne({
+        username
+      });
+      if (userUsername) return res.status(400).json({
+        msg: 'Username is already in use, please use a different one.'
+      });
+      let user = new User({
         email,
         username,
         password

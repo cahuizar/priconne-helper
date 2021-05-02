@@ -4,11 +4,14 @@ const UserSchemma = mongoose.Schema({
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    trim: true
   },
   username: {
     type: String,
     required: true,
+    unique: true,
+    trim: true
   },
   password: {
     type: String,
@@ -16,11 +19,12 @@ const UserSchemma = mongoose.Schema({
   },
   clan: {
     type: String,
-    default: null
+    default: null,
   },
   role: {
     type: String,
-    default: null
+    default: null,
+    trim: true
   },
   items: {
     type: Array,
@@ -33,6 +37,14 @@ const UserSchemma = mongoose.Schema({
   settings: {
     type: Array,
     default: []
+  },
+  resetPasswordToken: {
+    type: String,
+    default: null
+  },
+  resetPasswordExpires: {
+    type: Date,
+    default: null
   },
   date: {
     type: Date,
