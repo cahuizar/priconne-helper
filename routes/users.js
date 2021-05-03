@@ -21,16 +21,20 @@ router.post(
       .trim()
       .not()
       .isEmpty()
-      .withMessage('Username must not be empty')
+      .withMessage('Username must not be empty.')
       .custom(value => !/\s/.test(value))
-      .withMessage('No spaces are allowed in the username')
-      .isLength({ max: 15 })
-      .withMessage('Username must be at most 15 characters long'),
-    check('password', 'Please enter a password with 6 or more characters')
+      .withMessage('Username must not contain any spaces.')
+      .isLength({ min: 3, max: 15 })
+      .withMessage('Username must be between 3 to 15 characters long.'),
+    check('password')
       .trim()
+      .not()
+      .isEmpty()
+      .withMessage('Password must not be empty.')
       .custom(value => !/\s/.test(value))
-      .withMessage('No spaces are allowed in the password')
-      .isLength({ min: 6 })
+      .withMessage('Password must not contain any spaces.')
+      .isLength({ min: 6, max: 30 })
+      .withMessage('Password must be between 6 and 30 characters long.')
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -87,7 +91,7 @@ router.post(
       );
     } catch (err) {
       console.log(err.message);
-      res.status(500).send('Server error');
+      res.status(500).send('Sorry a server error has occurred, please try again. If the issue persist, please try signing out and closing your browser.');
     }
   }
 );

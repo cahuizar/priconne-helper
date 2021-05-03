@@ -4,12 +4,34 @@ const User = require('../../models/User');
 const auth = require('../../middleware/auth');
 require('dotenv').config();
 
+const {
+  check,
+  validationResult
+} = require('express-validator');
+
 const router = express.Router();
 
 // @route     POST api/clans/join
 // @desc      Request to join a clan
 // @access    Private
-router.post('/', auth, async (req, res) => {
+router.post(
+  '/',
+  [
+    auth,
+    check('clanId')
+      .trim()
+      .not()
+      .isEmpty()
+      .withMessage('The clan id must not be empty.')
+      .isLength({ min: 24, max: 24 })
+      .withMessage('The clan id is invalid')
+  ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty())
+      return res.status(400).json({
+        errors: errors.array()
+      });
     const { clanId } = req.body;
     try {
       const user = await User.findById(req.user.id).select('-password -date -__v');

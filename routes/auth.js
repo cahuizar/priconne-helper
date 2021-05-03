@@ -17,7 +17,7 @@ router.get('/', auth, async (req, res) => {
     res.json(user);
   } catch (err) {
     console.log(err.message);
-    res.status(500).send('Server error');
+    res.status(500).send('Sorry a server error has occurred, please try again. If the issue persist, please try signing out and closing your browser.');
   }
 });
 
@@ -28,7 +28,15 @@ router.post(
   '/',
   [
     check('email', 'Please include a valid email').isEmail(),
-    check('password', 'Password is required').exists()
+    check('password')
+      .trim()
+      .not()
+      .isEmpty()
+      .withMessage('Password must not be empty.')
+      .custom(value => !/\s/.test(value))
+      .withMessage('Password must not contain any spaces.')
+      .isLength({ min: 6, max: 30 })
+      .withMessage('Password must be between 6 and 30 characters long.')
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -36,9 +44,9 @@ router.post(
       return res.status(400).json({ errors: errors.array() });
     try {
       let user = await User.findOne({ email: req.body.email });
-      if (!user) return res.status(400).json({ msg: 'Invalid Credentials' });
+      if (!user) return res.status(400).json({ msg: 'Email and password combination could not be found.' });
       const isMatch = await bcrypt.compare(req.body.password, user.password);
-      if (!isMatch) res.status(400).json({ msg: 'Invalid Credentials' });
+      if (!isMatch) res.status(400).json({ msg: 'Email and password combination could not be found.' });
       const {
         id,
         email,
@@ -77,7 +85,7 @@ router.post(
       );
     } catch (err) {
       console.log(err.message);
-      res.status(500).send('Server error');
+      res.status(500).send('Sorry a server error has occurred, please try again. If the issue persist, please try signing out and closing your browser.');
     }
   }
 );

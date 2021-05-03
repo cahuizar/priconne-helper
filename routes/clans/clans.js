@@ -5,6 +5,7 @@ const auth = require('../../middleware/auth');
 require('dotenv').config();
 const {
   check,
+  param,
   validationResult
 } = require('express-validator');
 
@@ -13,19 +14,36 @@ const router = express.Router();
 // @route     GET api/clans
 // @desc      Get clan
 // @access    Private
-router.get('/:clan', auth, async (req, res) => {
-  const clanId = req.params.clan;
-  try {
-    const clan = await Clan.findById(clanId).select('-__v -date -battles -pending');
-    if (!clan) return res.status(400).json({ msg: 'The clan does not exist.' });
-    const leader = await User.findById(clan.leader);
-    if (!leader) return res.status(400).json({ msg: 'The leader for the clan does not exist.' });
-    const retClan ={ ...clan._doc, players: clan.players.length, leader: leader.username};
-    res.json(retClan);
-  } catch (err) {
-    console.log(err.message);
-    return res.status(400).json({ msg: 'Clan does not exist' });
-  }
+router.get(
+  '/:clanId',
+  [
+    auth,
+      param('clanId')
+        .trim()
+        .not()
+        .isEmpty()
+        .withMessage('The clan id must not be empty.')
+        .isLength({ min: 24, max: 24 })
+        .withMessage('The clan id is invalid')
+    ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty())
+      return res.status(400).json({
+        errors: errors.array()
+      });
+    const clanId = req.params.clanId;
+    try {
+      const clan = await Clan.findById(clanId).select('-__v -date -battles -pending');
+      if (!clan) return res.status(400).json({ msg: 'The clan does not exist.' });
+      const leader = await User.findById(clan.leader);
+      if (!leader) return res.status(400).json({ msg: 'The leader of the clan does not exist.' });
+      const retClan ={ ...clan._doc, players: clan.players.length, leader: leader.username};
+      res.json(retClan);
+    } catch (err) {
+      console.log(err.message);
+      return res.status(400).json({ msg: 'Clan does not exist' });
+    }
 });
 
 
@@ -47,7 +65,7 @@ router.delete('/', auth, async (req, res) => {
     } = user;
     if(role !== 'leader') return res.status(400).json({ msg: 'You are not the leader of a clan.' });
     const clanResult = await Clan.findById(clan)
-    if (!clanResult) return res.status(400).json({ msg: 'Clan does not exist' });
+    if (!clanResult) return res.status(400).json({ msg: 'The clan does not exist.' });
     if(clanResult.leader !== id) return res.status(400).json({ msg: 'You are not the leader of the clan.' });
     const removeClanFromUser = {
       clan: null,
@@ -80,15 +98,15 @@ router.post(
       .not()
       .isEmpty()
       .withMessage('Clan name must not be empty')
-      .isLength({ max: 20 })
-      .withMessage('Clan name must be at most 20 characters long'),
+      .isLength({ min: 3, max: 20 })
+      .withMessage('Clan name must be between 3 to 20 characters long'),
     check('description')
       .trim()
       .not()
       .isEmpty()
       .withMessage('Description must not be empty')
-      .isLength({ max: 100 })
-      .withMessage('Description must be at most 100 characters long'),
+      .isLength({ min: 3, max: 100 })
+      .withMessage('Description must be between 3 to 100 characters long')
   ],
   async (req, res) => {
     const errors = validationResult(req);
