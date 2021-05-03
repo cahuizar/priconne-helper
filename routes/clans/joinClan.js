@@ -6,13 +6,13 @@ require('dotenv').config();
 
 const router = express.Router();
 
-// @route     POST api/clans/join/:id
+// @route     POST api/clans/join
 // @desc      Request to join a clan
 // @access    Private
-router.post('/:id', auth, async (req, res) => {
-    const clanId = req.params.id;
+router.post('/', auth, async (req, res) => {
+    const { clanId } = req.body;
     try {
-      const user = await User.findById(req.user.id);
+      const user = await User.findById(req.user.id).select('-password -date -__v');
       if(user.clan !== null || user.role !== null ) {
         return res.status(400).json({
           msg: 'User is already part of a clan'
