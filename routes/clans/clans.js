@@ -16,9 +16,12 @@ const router = express.Router();
 router.get('/:clan', auth, async (req, res) => {
   const clanId = req.params.clan;
   try {
-    const clan = await Clan.findById(clanId).select('-__v -date');
-    if (!clan) return res.status(400).json({ msg: 'Clan does not exist' });
-    res.json(clan);
+    const clan = await Clan.findById(clanId).select('-__v -date -battles -pending');
+    if (!clan) return res.status(400).json({ msg: 'The clan does not exist.' });
+    const leader = await User.findById(clan.leader);
+    if (!leader) return res.status(400).json({ msg: 'The leader for the clan does not exist.' });
+    const retClan ={ ...clan._doc, players: clan.players.length, leader: leader.username};
+    res.json(retClan);
   } catch (err) {
     console.log(err.message);
     return res.status(400).json({ msg: 'Clan does not exist' });
@@ -31,27 +34,37 @@ router.get('/:clan', auth, async (req, res) => {
 // @access    Private
 router.delete('/', auth, async (req, res) => {
   try {
+    const user = await User.findById(req.user.id).select('-password -date -__v');
+    if(!user) {
+      return res.status(400).json({
+        msg: 'User does not exist'
+      });
+    }
     const {
       clan,
       role,
       id
-    } = req.user;
-    if(role !== 'leader') return res.status(400).json({ msg: 'You are not the leader of the clan.' });
+    } = user;
+    if(role !== 'leader') return res.status(400).json({ msg: 'You are not the leader of a clan.' });
     const clanResult = await Clan.findById(clan)
     if (!clanResult) return res.status(400).json({ msg: 'Clan does not exist' });
     if(clanResult.leader !== id) return res.status(400).json({ msg: 'You are not the leader of the clan.' });
-    const players = clanResult.players;
-    const playersResult = await User.find({id: players})
-    // await playersResult.updateOne({clan: null, role: null})
-    // await clanResult.deleteOne();
-    // res.status(204).send();
-    res.json({
-      playersResult,
-      players
+    const removeClanFromUser = {
+      clan: null,
+      role: null
+    }
+    if(!clanResult.players) {
+      await user.updateOne(removeClanFromUser);
+    } else {
+      await User.find({_id: { $in: clanResult.players }}).updateMany(removeClanFromUser);
+    }
+    await clanResult.deleteOne();
+    res.status(200).json({
+      msg: `${clanResult.name} has been deleted.`
     });
   } catch (err) {
     console.log(err.message);
-    return res.status(400).json({ msg: 'Clan does not exist' });
+    return res.status(500).json({ msg: 'Sorry a server error has occurred, please try again. If the issue persist, please try signing out and closing your browser.' });
   }
 });
 
@@ -62,12 +75,20 @@ router.post(
   '/',
   [
     auth,
-    check('name', 'Please use a valid clan name')
-      .not()
-      .isEmpty(),
-    check('description', 'Please use a valid description')
+    check('name')
+      .trim()
       .not()
       .isEmpty()
+      .withMessage('Clan name must not be empty')
+      .isLength({ max: 20 })
+      .withMessage('Clan name must be at most 20 characters long'),
+    check('description')
+      .trim()
+      .not()
+      .isEmpty()
+      .withMessage('Description must not be empty')
+      .isLength({ max: 100 })
+      .withMessage('Description must be at most 100 characters long'),
   ],
   async (req, res) => {
     const errors = validationResult(req);
@@ -83,14 +104,14 @@ router.post(
       const user = await User.findById(req.user.id).select('-password -date -__v');
       if(user.clan !== null || user.role !== null ) {
         return res.status(400).json({
-          msg: 'User is already part of a clan'
+          msg: 'You cannot create a clan when you are are part of a clan already.'
         });
       }
       let clan = await Clan.findOne({
         name
       });
       if (clan) return res.status(400).json({
-        msg: 'Clan already exists'
+        msg: 'The clan name already exist, please choose a different one.'
       });
       clan = new Clan({
         name,
@@ -101,12 +122,12 @@ router.post(
 
       await clan.save();
       await user.updateOne({clan: clan.id, role: "leader"})
-      res.json({
-        clan, user
+      res.status(200).json({
+        msg: `You have created the clan ${clan.name}`
       });
     } catch (err) {
       console.log(err.message);
-      res.status(500).send('Server error');
+      res.status(500).send('Sorry a server error has occurred, please try again. If the issue persist, please try signing out and closing your browser.');
     }
   }
 );
