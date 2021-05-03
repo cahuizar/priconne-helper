@@ -18,6 +18,7 @@ router.post(
   [
     check('email', 'Please include a valid email').isEmail(),
     check('username')
+      .trim()
       .not()
       .isEmpty()
       .withMessage('Username must not be empty')
@@ -26,6 +27,7 @@ router.post(
       .isLength({ max: 15 })
       .withMessage('Username must be at most 15 characters long'),
     check('password', 'Please enter a password with 6 or more characters')
+      .trim()
       .custom(value => !/\s/.test(value))
       .withMessage('No spaces are allowed in the password')
       .isLength({ min: 6 })
